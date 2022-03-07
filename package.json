@@ -15,12 +15,12 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dex-Rip/Rip-core.git"
+    "url": "git+https://github.com/Dex-Rip/Core.git"
   },
   "bugs": {
-    "url": "https://github.com/Dex-Rip/Rip-core/issues"
+    "url": "https://github.com/Dex-Rip/Core/issues"
   },
-  "homepage": "https://github.com/Dex-Rip/Rip-core#readme",
+  "homepage": "https://github.com/Dex-Rip/Core#readme",
   "keywords": [
     "Dex-Rip",
     "avalanche"
