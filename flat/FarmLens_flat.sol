@@ -108,7 +108,7 @@ library SafeERC20 {
     }
 }
 
-// File contracts/traderRip/interfaces/IRipERC20.sol
+// File contracts/DexRip/interfaces/IRipERC20.sol
 // License-Identifier: GPL-3.0
 
 pragma solidity >=0.5.0;
@@ -156,7 +156,7 @@ interface IRipERC20 {
     ) external;
 }
 
-// File contracts/traderRip/interfaces/IRipPair.sol
+// File contracts/DexRip/interfaces/IRipPair.sol
 // License-Identifier: GPL-3.0
 
 pragma solidity >=0.5.0;
@@ -256,7 +256,7 @@ interface IRipPair {
     function initialize(address, address) external;
 }
 
-// File contracts/traderRip/interfaces/IRipFactory.sol
+// File contracts/DexRip/interfaces/IRipFactory.sol
 // License-Identifier: GPL-3.0
 
 pragma solidity >=0.5.0;
@@ -351,7 +351,7 @@ contract BoringOwnable is BoringOwnableData {
     }
 }
 
-// File contracts/traderRip/FarmLens.sol
+// File contracts/DexRip/FarmLens.sol
 // License-Identifier: MIT
 pragma solidity >0.6.12;
 pragma experimental ABIEncoderV2;

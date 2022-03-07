@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 /// @title ERC20MockDecimals
-/// @author Trader Rip
+/// @author Dex Rip
 /// @dev ONLY FOR TESTS
 contract ERC20MockDecimals is ERC20, Ownable {
     uint8 private decimalsOverride;

@@ -5,12 +5,12 @@ pragma solidity >0.6.12;
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "./traderRip/interfaces/IRipPair.sol";
-import "./traderRip/interfaces/IRipRouter01.sol";
-import "./traderRip/interfaces/IRipFactory.sol";
-import "./traderRip/libraries/RipLibrary.sol";
+import "./DexRip/interfaces/IRipPair.sol";
+import "./DexRip/interfaces/IRipRouter01.sol";
+import "./DexRip/interfaces/IRipFactory.sol";
+import "./DexRip/libraries/RipLibrary.sol";
 
-// RipRoll helps your migrate your existing Uniswap LP tokens to TraderRip LP ones
+// RipRoll helps your migrate your existing Uniswap LP tokens to DexRip LP ones
 contract RipRoll is Ownable {
     using SafeERC20 for IERC20;
 

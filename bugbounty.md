@@ -2,7 +2,7 @@
 
 ## Overview
 
-This bug bounty document is to verify that Trader Rip hosts a bug bounty up to $50,000 on Immunefi at the address [https://immunefi.com/bounty/traderRip/](https://immunefi.com/bounty/traderRip/).
+This bug bounty document is to verify that Dex Rip hosts a bug bounty up to $50,000 on Immunefi at the address [https://immunefi.com/bounty/DexRip/](https://immunefi.com/bounty/DexRip/).
 
 If you have found a vulnerability in our project, it must be submitted through [Immunefi's platform](https://immunefi.com/). Immunefi will handle bug bounty communications.
 

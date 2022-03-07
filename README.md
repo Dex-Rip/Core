@@ -1,6 +1,6 @@
-# Trader Rip
+# Dex Rip
 
-This repository contains all the contracts for Trader Rip.
+This repository contains all the contracts for Dex Rip.
 
 ## Deployed Contracts
 
@@ -20,7 +20,7 @@ Then refer to the following docs below.
 
 [Deployment](docs/DEPLOYMENT.md)
 
-[MasterChefRipV2](docs/MASTERCHEFRipV2.md) - if your project is interested in being a double reward farm on Trader Rip!
+[MasterChefRipV2](docs/MASTERCHEFRipV2.md) - if your project is interested in being a double reward farm on Dex Rip!
 
 ## Security
 

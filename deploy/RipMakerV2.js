@@ -1,4 +1,4 @@
-const { WAVAX } = require("@traderRip-xyz/sdk");
+const { WAVAX } = require("@DexRip-xyz/sdk");
 
 module.exports = async function ({ ethers, getNamedAccounts, deployments }) {
   const { deploy } = deployments;

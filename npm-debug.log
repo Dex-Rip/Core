@@ -50,12 +50,12 @@
 49 silly mapToRegistry using default registry
 50 silly mapToRegistry registry https://registry.npmjs.org/
 51 silly mapToRegistry uri https://registry.npmjs.org/@tenderly%2fhardhat-tenderly
-52 silly mapToRegistry name @traderRip-xyz/sdk
-53 silly mapToRegistry scope (from package name) @traderRip-xyz
-54 verbose mapToRegistry no registry URL found in name for scope @traderRip-xyz
+52 silly mapToRegistry name @DexRip-xyz/sdk
+53 silly mapToRegistry scope (from package name) @DexRip-xyz
+54 verbose mapToRegistry no registry URL found in name for scope @DexRip-xyz
 55 silly mapToRegistry using default registry
 56 silly mapToRegistry registry https://registry.npmjs.org/
-57 silly mapToRegistry uri https://registry.npmjs.org/@traderRip-xyz%2fsdk
+57 silly mapToRegistry uri https://registry.npmjs.org/@DexRip-xyz%2fsdk
 58 silly mapToRegistry name @typechain/ethers-v5
 59 silly mapToRegistry scope (from package name) @typechain
 60 verbose mapToRegistry no registry URL found in name for scope @typechain
@@ -199,10 +199,10 @@
 198 verbose request no auth needed
 199 info attempt registry request try #1 at 6:04:34 PM
 200 http request GET https://registry.npmjs.org/@tenderly%2fhardhat-tenderly
-201 verbose request uri https://registry.npmjs.org/@traderRip-xyz%2fsdk
+201 verbose request uri https://registry.npmjs.org/@DexRip-xyz%2fsdk
 202 verbose request no auth needed
 203 info attempt registry request try #1 at 6:04:34 PM
-204 http request GET https://registry.npmjs.org/@traderRip-xyz%2fsdk
+204 http request GET https://registry.npmjs.org/@DexRip-xyz%2fsdk
 205 verbose request uri https://registry.npmjs.org/@typechain%2fethers-v5
 206 verbose request no auth needed
 207 info attempt registry request try #1 at 6:04:34 PM
@@ -435,7 +435,7 @@
 323 silly get     server: 'cloudflare',
 323 silly get     'content-encoding': 'gzip' } ]
 324 verbose get saving hardhat-abi-exporter to /home/ajklein99/.npm/registry.npmjs.org/hardhat-abi-exporter/.cache.json
-325 http 404 https://registry.npmjs.org/@traderRip-xyz%2fsdk
+325 http 404 https://registry.npmjs.org/@DexRip-xyz%2fsdk
 326 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
 326 verbose headers   'content-type': 'application/json',
 326 verbose headers   'content-length': '21',
@@ -1377,7 +1377,7 @@
 446 silly get     server: 'cloudflare',
 446 silly get     'content-encoding': 'gzip' } ]
 447 verbose get saving solidity-coverage to /home/ajklein99/.npm/registry.npmjs.org/solidity-coverage/.cache.json
-448 verbose stack Error: Not found : @traderRip-xyz/sdk
+448 verbose stack Error: Not found : @DexRip-xyz/sdk
 448 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
 448 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
 448 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
@@ -1389,16 +1389,16 @@
 448 verbose stack     at Request.emit (events.js:211:7)
 448 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
 449 verbose statusCode 404
-450 verbose pkgid @traderRip-xyz/sdk
+450 verbose pkgid @DexRip-xyz/sdk
 451 verbose cwd /mnt/c/Users/CryptoSwap/Desktop/joe swap/joe core/joe-core-main
 452 error Linux 5.10.16.3-microsoft-standard-WSL2
 453 error argv "/usr/bin/node" "/usr/bin/npm" "update"
 454 error node v8.10.0
 455 error npm  v3.5.2
 456 error code E404
-457 error 404 Not found : @traderRip-xyz/sdk
+457 error 404 Not found : @DexRip-xyz/sdk
 458 error 404
-459 error 404 '@traderRip-xyz/sdk' is not in the npm registry.
+459 error 404 '@DexRip-xyz/sdk' is not in the npm registry.
 460 error 404 Your package name is not valid, because
 461 error 404 1. name can no longer contain capital letters
 462 error 404 Note that you can also install from a

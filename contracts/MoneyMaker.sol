@@ -6,17 +6,17 @@ pragma solidity >0.6.12;
 import "./libraries/SafeMath.sol";
 import "./libraries/SafeERC20.sol";
 
-import "./traderRip/interfaces/IERC20.sol";
-import "./traderRip/interfaces/IRipPair.sol";
-import "./traderRip/interfaces/IRipFactory.sol";
-import "./traderRip/libraries/RipLibrary.sol";
+import "./DexRip/interfaces/IERC20.sol";
+import "./DexRip/interfaces/IRipPair.sol";
+import "./DexRip/interfaces/IRipFactory.sol";
+import "./DexRip/libraries/RipLibrary.sol";
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/EnumerableSet.sol";
 
 /// @title Money Maker
-/// @author Trader Rip
-/// @notice MoneyMaker receives 0.05% of the swaps done on Trader Rip in the form of an LP. It swaps those LPs
+/// @author Dex Rip
+/// @notice MoneyMaker receives 0.05% of the swaps done on Dex Rip in the form of an LP. It swaps those LPs
 /// to a token of choice and sends it to the RipBar
 contract MoneyMaker is Ownable {
     using EnumerableSet for EnumerableSet.AddressSet;

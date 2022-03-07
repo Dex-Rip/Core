@@ -12,7 +12,7 @@ import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "./VeRipToken.sol";
 
 /// @title Vote Escrow Rip Staking
-/// @author Trader Rip
+/// @author Dex Rip
 /// @notice Stake Rip to earn veRip, which you can use to earn higher farm yields and gain
 /// voting power. Note that unstaking any amount of Rip will burn all of your existing veRip.
 contract VeRipStaking is Initializable, OwnableUpgradeable {

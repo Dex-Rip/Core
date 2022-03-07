@@ -10,7 +10,7 @@ import "@openzeppelin/contracts-upgradeable/token/ERC20/SafeERC20Upgradeable.sol
 
 /**
  * @title Stable Rip Staking
- * @author Trader Rip
+ * @author Dex Rip
  * @notice StableRipStaking is a contract that allows Rip deposits and receives stablecoins sent by MoneyMaker's daily
  * harvests. Users deposit Rip and receive a share of what has been sent by MoneyMaker based on their participation of
  * the total deposited Rip. It is similar to a MasterChef, but we allow for claiming of different reward tokens

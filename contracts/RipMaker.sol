@@ -5,9 +5,9 @@ pragma solidity >0.6.12;
 import "./libraries/SafeMath.sol";
 import "./libraries/SafeERC20.sol";
 
-import "./traderRip/interfaces/IRipERC20.sol";
-import "./traderRip/interfaces/IRipPair.sol";
-import "./traderRip/interfaces/IRipFactory.sol";
+import "./DexRip/interfaces/IRipERC20.sol";
+import "./DexRip/interfaces/IRipPair.sol";
+import "./DexRip/interfaces/IRipFactory.sol";
 
 import "./boringcrypto/BoringOwnable.sol";
 

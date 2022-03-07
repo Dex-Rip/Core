@@ -1,4 +1,4 @@
-// File: contracts/traderRip/interfaces/IRipPair.sol
+// File: contracts/DexRip/interfaces/IRipPair.sol
 
 // SPDX-License-Identifier: GPL-3.0
 
@@ -113,7 +113,7 @@ interface IRipPair {
     function initialize(address, address) external;
 }
 
-// File: contracts/traderRip/libraries/SafeMath.sol
+// File: contracts/DexRip/libraries/SafeMath.sol
 
 pragma solidity =>0.6.12;
 
@@ -133,7 +133,7 @@ library SafeMathRip {
     }
 }
 
-// File: contracts/traderRip/libraries/RipLibrary.sol
+// File: contracts/DexRip/libraries/RipLibrary.sol
 
 pragma solidity >=0.5.0;
 
@@ -275,7 +275,7 @@ library RipLibrary {
     }
 }
 
-// File: contracts/traderRip/libraries/TransferHelper.sol
+// File: contracts/DexRip/libraries/TransferHelper.sol
 
 pragma solidity >=0.6.0;
 
@@ -368,7 +368,7 @@ interface IRipFactory {
 
     function setMigrator(address) external;
 }
-// File: contracts/traderRip/interfaces/IRipRouter01.sol
+// File: contracts/DexRip/interfaces/IRipRouter01.sol
 
 pragma solidity >=0.6.2;
 
@@ -531,7 +531,7 @@ interface IRipRouter01 {
         returns (uint256[] memory amounts);
 }
 
-// File: contracts/traderRip/interfaces/IRipRouter02.sol
+// File: contracts/DexRip/interfaces/IRipRouter02.sol
 
 pragma solidity >=0.6.2;
 
@@ -582,7 +582,7 @@ interface IRipRouter02 is IRipRouter01 {
     ) external;
 }
 
-// File: contracts/traderRip/interfaces/IRipFactory.sol
+// File: contracts/DexRip/interfaces/IRipFactory.sol
 
 pragma solidity >=0.5.0;
 
@@ -620,7 +620,7 @@ interface IERC20Rip {
     ) external returns (bool);
 }
 
-// File: contracts/traderRip/interfaces/IWAVAX.sol
+// File: contracts/DexRip/interfaces/IWAVAX.sol
 
 pragma solidity >=0.5.0;
 
@@ -632,7 +632,7 @@ interface IWAVAX {
     function withdraw(uint256) external;
 }
 
-// File: contracts/traderRip/RipRouter02.sol
+// File: contracts/DexRip/RipRouter02.sol
 
 pragma solidity =>0.6.12;
 

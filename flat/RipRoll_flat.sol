@@ -656,7 +656,7 @@ abstract contract Ownable is Context {
     }
 }
 
-// File: contracts/traderRip/interfaces/IRipPair.sol
+// File: contracts/DexRip/interfaces/IRipPair.sol
 
 
 pragma solidity >=0.5.0;
@@ -770,7 +770,7 @@ interface IRipPair {
     function initialize(address, address) external;
 }
 
-// File: contracts/traderRip/interfaces/IRipRouter01.sol
+// File: contracts/DexRip/interfaces/IRipRouter01.sol
 
 
 pragma solidity >=0.6.2;
@@ -934,7 +934,7 @@ interface IRipRouter01 {
         returns (uint256[] memory amounts);
 }
 
-// File: contracts/traderRip/interfaces/IRipFactory.sol
+// File: contracts/DexRip/interfaces/IRipFactory.sol
 
 
 pragma solidity >=0.5.0;
@@ -973,7 +973,7 @@ interface IRipFactory {
     function setMigrator(address) external;
 }
 
-// File: contracts/traderRip/libraries/SafeMath.sol
+// File: contracts/DexRip/libraries/SafeMath.sol
 
 
 pragma solidity =>0.6.12;
@@ -994,7 +994,7 @@ library SafeMathRip {
     }
 }
 
-// File: contracts/traderRip/libraries/RipLibrary.sol
+// File: contracts/DexRip/libraries/RipLibrary.sol
 
 
 pragma solidity >=0.5.0;
@@ -1151,7 +1151,7 @@ pragma solidity >0.6.12;
 
 
 
-// RipRoll helps your migrate your existing Uniswap LP tokens to TraderRip LP ones
+// RipRoll helps your migrate your existing Uniswap LP tokens to DexRip LP ones
 contract RipRoll is Ownable {
     using SafeERC20 for IERC20;
 

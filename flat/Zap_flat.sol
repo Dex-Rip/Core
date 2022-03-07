@@ -902,7 +902,7 @@ abstract contract OwnableUpgradeable is Initializable, ContextUpgradeable {
     uint256[49] private __gap;
 }
 
-// File: contracts/traderRip/interfaces/IRipPair.sol
+// File: contracts/DexRip/interfaces/IRipPair.sol
 
 pragma solidity >=0.5.0;
 
@@ -1015,7 +1015,7 @@ interface IRipPair {
     function initialize(address, address) external;
 }
 
-// File: contracts/traderRip/interfaces/IRipRouter01.sol
+// File: contracts/DexRip/interfaces/IRipRouter01.sol
 
 pragma solidity >=0.6.2;
 
@@ -1178,7 +1178,7 @@ interface IRipRouter01 {
         returns (uint256[] memory amounts);
 }
 
-// File: contracts/traderRip/interfaces/IRipRouter02.sol
+// File: contracts/DexRip/interfaces/IRipRouter02.sol
 
 pragma solidity >=0.6.2;
 
@@ -1229,7 +1229,7 @@ interface IRipRouter02 is IRipRouter01 {
     ) external;
 }
 
-// File: contracts/traderRip/interfaces/IWAVAX.sol
+// File: contracts/DexRip/interfaces/IWAVAX.sol
 
 pragma solidity >=0.5.0;
 
@@ -1246,7 +1246,7 @@ interface IWAVAX {
 pragma solidity =>0.6.12;
 
 /*
- * Trader Rip
+ * Dex Rip
  * MIT License; modified from PancakeBunny
  *
  */

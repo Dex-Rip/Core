@@ -2,7 +2,7 @@
 pragma solidity =>0.6.12;
 
 /*
- * Trader Rip
+ * Dex Rip
  * MIT License; modified from PancakeBunny
  *
  */
@@ -11,9 +11,9 @@ import "@openzeppelin/contracts/math/SafeMath.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 
-import "./traderRip/interfaces/IRipPair.sol";
-import "./traderRip/interfaces/IRipRouter02.sol";
-import "./traderRip/interfaces/IWAVAX.sol";
+import "./DexRip/interfaces/IRipPair.sol";
+import "./DexRip/interfaces/IRipRouter02.sol";
+import "./DexRip/interfaces/IWAVAX.sol";
 
 contract Zap is OwnableUpgradeable {
     using SafeMath for uint256;

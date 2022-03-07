@@ -129,7 +129,7 @@ library SafeERC20 {
     }
 }
 
-// File: contracts/traderRip/interfaces/IRipERC20.sol
+// File: contracts/DexRip/interfaces/IRipERC20.sol
 
 
 pragma solidity >=0.5.0;
@@ -184,7 +184,7 @@ interface IRipERC20 {
     ) external;
 }
 
-// File: contracts/traderRip/interfaces/IRipPair.sol
+// File: contracts/DexRip/interfaces/IRipPair.sol
 
 
 pragma solidity >=0.5.0;
@@ -298,7 +298,7 @@ interface IRipPair {
     function initialize(address, address) external;
 }
 
-// File: contracts/traderRip/interfaces/IRipFactory.sol
+// File: contracts/DexRip/interfaces/IRipFactory.sol
 
 
 pragma solidity >=0.5.0;

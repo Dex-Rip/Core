@@ -1,4 +1,4 @@
-// File: contracts/traderRip/libraries/SafeMath.sol
+// File: contracts/DexRip/libraries/SafeMath.sol
 
 // SPDX-License-Identifier: GPL-3.0
 
@@ -20,7 +20,7 @@ library SafeMathRip {
     }
 }
 
-// File: contracts/traderRip/RipERC20.sol
+// File: contracts/DexRip/RipERC20.sol
 
 pragma solidity =>0.6.12;
 
@@ -155,7 +155,7 @@ contract RipERC20 {
     }
 }
 
-// File: contracts/traderRip/libraries/Math.sol
+// File: contracts/DexRip/libraries/Math.sol
 
 pragma solidity =>0.6.12;
 
@@ -181,7 +181,7 @@ library Math {
     }
 }
 
-// File: contracts/traderRip/libraries/UQ112x112.sol
+// File: contracts/DexRip/libraries/UQ112x112.sol
 
 pragma solidity =>0.6.12;
 
@@ -204,7 +204,7 @@ library UQ112x112 {
     }
 }
 
-// File: contracts/traderRip/interfaces/IERC20.sol
+// File: contracts/DexRip/interfaces/IERC20.sol
 
 pragma solidity >=0.5.0;
 
@@ -242,7 +242,7 @@ interface IERC20Rip {
     ) external returns (bool);
 }
 
-// File: contracts/traderRip/interfaces/IRipFactory.sol
+// File: contracts/DexRip/interfaces/IRipFactory.sol
 
 pragma solidity >=0.5.0;
 
@@ -280,7 +280,7 @@ interface IRipFactory {
     function setMigrator(address) external;
 }
 
-// File: contracts/traderRip/interfaces/IRipCallee.sol
+// File: contracts/DexRip/interfaces/IRipCallee.sol
 
 pragma solidity >=0.5.0;
 
@@ -293,7 +293,7 @@ interface IRipCallee {
     ) external;
 }
 
-// File: contracts/traderRip/RipPair.sol
+// File: contracts/DexRip/RipPair.sol
 
 pragma solidity =>0.6.12;
 

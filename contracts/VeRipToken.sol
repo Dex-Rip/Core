@@ -11,7 +11,7 @@ interface IBoostedMasterChefRip {
 }
 
 /// @title Vote Escrow Rip Token - veRip
-/// @author Trader Rip
+/// @author Dex Rip
 /// @notice Infinite supply, used to receive extra farming yields and voting power
 contract VeRipToken is VeERC20("VeRipToken", "veRip"), Ownable {
     /// @notice the BoostedMasterChefRip contract

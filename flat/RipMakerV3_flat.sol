@@ -108,7 +108,7 @@ library SafeERC20 {
     }
 }
 
-// File contracts/traderRip/interfaces/IERC20.sol
+// File contracts/DexRip/interfaces/IERC20.sol
 // License-Identifier: GPL-3.0
 
 pragma solidity >=0.5.0;
@@ -140,7 +140,7 @@ interface IERC20Rip {
     ) external returns (bool);
 }
 
-// File contracts/traderRip/interfaces/IRipPair.sol
+// File contracts/DexRip/interfaces/IRipPair.sol
 // License-Identifier: GPL-3.0
 
 pragma solidity >=0.5.0;
@@ -240,7 +240,7 @@ interface IRipPair {
     function initialize(address, address) external;
 }
 
-// File contracts/traderRip/interfaces/IRipFactory.sol
+// File contracts/DexRip/interfaces/IRipFactory.sol
 // License-Identifier: GPL-3.0
 
 pragma solidity >=0.5.0;
