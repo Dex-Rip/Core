@@ -1,0 +1,1406 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'update' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly mapToRegistry name @nomiclabs/hardhat-ethers
+5 silly mapToRegistry scope (from package name) @nomiclabs
+6 verbose mapToRegistry no registry URL found in name for scope @nomiclabs
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry https://registry.npmjs.org/
+9 silly mapToRegistry uri https://registry.npmjs.org/@nomiclabs%2fhardhat-ethers
+10 silly mapToRegistry name @nomiclabs/hardhat-etherscan
+11 silly mapToRegistry scope (from package name) @nomiclabs
+12 verbose mapToRegistry no registry URL found in name for scope @nomiclabs
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/@nomiclabs%2fhardhat-etherscan
+16 silly mapToRegistry name @nomiclabs/hardhat-solhint
+17 silly mapToRegistry scope (from package name) @nomiclabs
+18 verbose mapToRegistry no registry URL found in name for scope @nomiclabs
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/@nomiclabs%2fhardhat-solhint
+22 silly mapToRegistry name @nomiclabs/hardhat-waffle
+23 silly mapToRegistry scope (from package name) @nomiclabs
+24 verbose mapToRegistry no registry URL found in name for scope @nomiclabs
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/@nomiclabs%2fhardhat-waffle
+28 silly mapToRegistry name @openzeppelin/contracts
+29 silly mapToRegistry scope (from package name) @openzeppelin
+30 verbose mapToRegistry no registry URL found in name for scope @openzeppelin
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/@openzeppelin%2fcontracts
+34 silly mapToRegistry name @openzeppelin/contracts-upgradeable
+35 silly mapToRegistry scope (from package name) @openzeppelin
+36 verbose mapToRegistry no registry URL found in name for scope @openzeppelin
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/@openzeppelin%2fcontracts-upgradeable
+40 silly mapToRegistry name @openzeppelin/hardhat-upgrades
+41 silly mapToRegistry scope (from package name) @openzeppelin
+42 verbose mapToRegistry no registry URL found in name for scope @openzeppelin
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry https://registry.npmjs.org/
+45 silly mapToRegistry uri https://registry.npmjs.org/@openzeppelin%2fhardhat-upgrades
+46 silly mapToRegistry name @tenderly/hardhat-tenderly
+47 silly mapToRegistry scope (from package name) @tenderly
+48 verbose mapToRegistry no registry URL found in name for scope @tenderly
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/@tenderly%2fhardhat-tenderly
+52 silly mapToRegistry name @traderRip-xyz/sdk
+53 silly mapToRegistry scope (from package name) @traderRip-xyz
+54 verbose mapToRegistry no registry URL found in name for scope @traderRip-xyz
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry uri https://registry.npmjs.org/@traderRip-xyz%2fsdk
+58 silly mapToRegistry name @typechain/ethers-v5
+59 silly mapToRegistry scope (from package name) @typechain
+60 verbose mapToRegistry no registry URL found in name for scope @typechain
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/@typechain%2fethers-v5
+64 silly mapToRegistry name @types/mocha
+65 silly mapToRegistry scope (from package name) @types
+66 verbose mapToRegistry no registry URL found in name for scope @types
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/@types%2fmocha
+70 silly mapToRegistry name @types/node
+71 silly mapToRegistry scope (from package name) @types
+72 verbose mapToRegistry no registry URL found in name for scope @types
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+76 silly mapToRegistry name chai
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/chai
+80 silly mapToRegistry name cross-env
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry uri https://registry.npmjs.org/cross-env
+84 silly mapToRegistry name dotenv
+85 silly mapToRegistry using default registry
+86 silly mapToRegistry registry https://registry.npmjs.org/
+87 silly mapToRegistry uri https://registry.npmjs.org/dotenv
+88 silly mapToRegistry name ethereum-waffle
+89 silly mapToRegistry using default registry
+90 silly mapToRegistry registry https://registry.npmjs.org/
+91 silly mapToRegistry uri https://registry.npmjs.org/ethereum-waffle
+92 silly mapToRegistry name ethers
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry uri https://registry.npmjs.org/ethers
+96 silly mapToRegistry name hardhat
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/hardhat
+100 silly mapToRegistry name hardhat-abi-exporter
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry uri https://registry.npmjs.org/hardhat-abi-exporter
+104 silly mapToRegistry name hardhat-deploy
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/hardhat-deploy
+108 silly mapToRegistry name hardhat-deploy-ethers
+109 silly mapToRegistry using default registry
+110 silly mapToRegistry registry https://registry.npmjs.org/
+111 silly mapToRegistry uri https://registry.npmjs.org/hardhat-deploy-ethers
+112 silly mapToRegistry name hardhat-gas-reporter
+113 silly mapToRegistry using default registry
+114 silly mapToRegistry registry https://registry.npmjs.org/
+115 silly mapToRegistry uri https://registry.npmjs.org/hardhat-gas-reporter
+116 silly mapToRegistry name hardhat-preprocessor
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/hardhat-preprocessor
+120 silly mapToRegistry name hardhat-spdx-license-identifier
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry https://registry.npmjs.org/
+123 silly mapToRegistry uri https://registry.npmjs.org/hardhat-spdx-license-identifier
+124 silly mapToRegistry name hardhat-typechain
+125 silly mapToRegistry using default registry
+126 silly mapToRegistry registry https://registry.npmjs.org/
+127 silly mapToRegistry uri https://registry.npmjs.org/hardhat-typechain
+128 silly mapToRegistry name hardhat-watcher
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry uri https://registry.npmjs.org/hardhat-watcher
+132 silly mapToRegistry name prettier
+133 silly mapToRegistry using default registry
+134 silly mapToRegistry registry https://registry.npmjs.org/
+135 silly mapToRegistry uri https://registry.npmjs.org/prettier
+136 silly mapToRegistry name prettier-plugin-solidity
+137 silly mapToRegistry using default registry
+138 silly mapToRegistry registry https://registry.npmjs.org/
+139 silly mapToRegistry uri https://registry.npmjs.org/prettier-plugin-solidity
+140 silly mapToRegistry name solhint
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry uri https://registry.npmjs.org/solhint
+144 silly mapToRegistry name solhint-plugin-prettier
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry uri https://registry.npmjs.org/solhint-plugin-prettier
+148 silly mapToRegistry name solidity-coverage
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry uri https://registry.npmjs.org/solidity-coverage
+152 silly mapToRegistry name ts-generator
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry https://registry.npmjs.org/
+155 silly mapToRegistry uri https://registry.npmjs.org/ts-generator
+156 silly mapToRegistry name ts-node
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npmjs.org/
+159 silly mapToRegistry uri https://registry.npmjs.org/ts-node
+160 silly mapToRegistry name typechain
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/typechain
+164 silly mapToRegistry name typescript
+165 silly mapToRegistry using default registry
+166 silly mapToRegistry registry https://registry.npmjs.org/
+167 silly mapToRegistry uri https://registry.npmjs.org/typescript
+168 verbose request uri https://registry.npmjs.org/@nomiclabs%2fhardhat-ethers
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 6:04:34 PM
+171 verbose request id 7fde67ae5c143c30
+172 http request GET https://registry.npmjs.org/@nomiclabs%2fhardhat-ethers
+173 verbose request uri https://registry.npmjs.org/@nomiclabs%2fhardhat-etherscan
+174 verbose request no auth needed
+175 info attempt registry request try #1 at 6:04:34 PM
+176 http request GET https://registry.npmjs.org/@nomiclabs%2fhardhat-etherscan
+177 verbose request uri https://registry.npmjs.org/@nomiclabs%2fhardhat-solhint
+178 verbose request no auth needed
+179 info attempt registry request try #1 at 6:04:34 PM
+180 http request GET https://registry.npmjs.org/@nomiclabs%2fhardhat-solhint
+181 verbose request uri https://registry.npmjs.org/@nomiclabs%2fhardhat-waffle
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 6:04:34 PM
+184 http request GET https://registry.npmjs.org/@nomiclabs%2fhardhat-waffle
+185 verbose request uri https://registry.npmjs.org/@openzeppelin%2fcontracts
+186 verbose request no auth needed
+187 info attempt registry request try #1 at 6:04:34 PM
+188 http request GET https://registry.npmjs.org/@openzeppelin%2fcontracts
+189 verbose request uri https://registry.npmjs.org/@openzeppelin%2fcontracts-upgradeable
+190 verbose request no auth needed
+191 info attempt registry request try #1 at 6:04:34 PM
+192 http request GET https://registry.npmjs.org/@openzeppelin%2fcontracts-upgradeable
+193 verbose request uri https://registry.npmjs.org/@openzeppelin%2fhardhat-upgrades
+194 verbose request no auth needed
+195 info attempt registry request try #1 at 6:04:34 PM
+196 http request GET https://registry.npmjs.org/@openzeppelin%2fhardhat-upgrades
+197 verbose request uri https://registry.npmjs.org/@tenderly%2fhardhat-tenderly
+198 verbose request no auth needed
+199 info attempt registry request try #1 at 6:04:34 PM
+200 http request GET https://registry.npmjs.org/@tenderly%2fhardhat-tenderly
+201 verbose request uri https://registry.npmjs.org/@traderRip-xyz%2fsdk
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 6:04:34 PM
+204 http request GET https://registry.npmjs.org/@traderRip-xyz%2fsdk
+205 verbose request uri https://registry.npmjs.org/@typechain%2fethers-v5
+206 verbose request no auth needed
+207 info attempt registry request try #1 at 6:04:34 PM
+208 http request GET https://registry.npmjs.org/@typechain%2fethers-v5
+209 verbose request uri https://registry.npmjs.org/@types%2fmocha
+210 verbose request no auth needed
+211 info attempt registry request try #1 at 6:04:34 PM
+212 http request GET https://registry.npmjs.org/@types%2fmocha
+213 verbose request uri https://registry.npmjs.org/@types%2fnode
+214 verbose request no auth needed
+215 info attempt registry request try #1 at 6:04:34 PM
+216 http request GET https://registry.npmjs.org/@types%2fnode
+217 verbose request uri https://registry.npmjs.org/chai
+218 verbose request no auth needed
+219 info attempt registry request try #1 at 6:04:34 PM
+220 http request GET https://registry.npmjs.org/chai
+221 verbose request uri https://registry.npmjs.org/cross-env
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 6:04:34 PM
+224 http request GET https://registry.npmjs.org/cross-env
+225 verbose request uri https://registry.npmjs.org/dotenv
+226 verbose request no auth needed
+227 info attempt registry request try #1 at 6:04:34 PM
+228 http request GET https://registry.npmjs.org/dotenv
+229 verbose request uri https://registry.npmjs.org/ethereum-waffle
+230 verbose request no auth needed
+231 info attempt registry request try #1 at 6:04:34 PM
+232 http request GET https://registry.npmjs.org/ethereum-waffle
+233 verbose request uri https://registry.npmjs.org/ethers
+234 verbose request no auth needed
+235 info attempt registry request try #1 at 6:04:34 PM
+236 http request GET https://registry.npmjs.org/ethers
+237 verbose request uri https://registry.npmjs.org/hardhat
+238 verbose request no auth needed
+239 info attempt registry request try #1 at 6:04:34 PM
+240 http request GET https://registry.npmjs.org/hardhat
+241 verbose request uri https://registry.npmjs.org/hardhat-abi-exporter
+242 verbose request no auth needed
+243 info attempt registry request try #1 at 6:04:34 PM
+244 http request GET https://registry.npmjs.org/hardhat-abi-exporter
+245 verbose request uri https://registry.npmjs.org/hardhat-deploy
+246 verbose request no auth needed
+247 info attempt registry request try #1 at 6:04:34 PM
+248 http request GET https://registry.npmjs.org/hardhat-deploy
+249 verbose request uri https://registry.npmjs.org/hardhat-deploy-ethers
+250 verbose request no auth needed
+251 info attempt registry request try #1 at 6:04:34 PM
+252 http request GET https://registry.npmjs.org/hardhat-deploy-ethers
+253 verbose request uri https://registry.npmjs.org/hardhat-gas-reporter
+254 verbose request no auth needed
+255 info attempt registry request try #1 at 6:04:34 PM
+256 http request GET https://registry.npmjs.org/hardhat-gas-reporter
+257 verbose request uri https://registry.npmjs.org/hardhat-preprocessor
+258 verbose request no auth needed
+259 info attempt registry request try #1 at 6:04:34 PM
+260 http request GET https://registry.npmjs.org/hardhat-preprocessor
+261 verbose request uri https://registry.npmjs.org/hardhat-spdx-license-identifier
+262 verbose request no auth needed
+263 info attempt registry request try #1 at 6:04:34 PM
+264 http request GET https://registry.npmjs.org/hardhat-spdx-license-identifier
+265 verbose request uri https://registry.npmjs.org/hardhat-typechain
+266 verbose request no auth needed
+267 info attempt registry request try #1 at 6:04:34 PM
+268 http request GET https://registry.npmjs.org/hardhat-typechain
+269 verbose request uri https://registry.npmjs.org/hardhat-watcher
+270 verbose request no auth needed
+271 info attempt registry request try #1 at 6:04:34 PM
+272 http request GET https://registry.npmjs.org/hardhat-watcher
+273 verbose request uri https://registry.npmjs.org/prettier
+274 verbose request no auth needed
+275 info attempt registry request try #1 at 6:04:34 PM
+276 http request GET https://registry.npmjs.org/prettier
+277 verbose request uri https://registry.npmjs.org/prettier-plugin-solidity
+278 verbose request no auth needed
+279 info attempt registry request try #1 at 6:04:34 PM
+280 http request GET https://registry.npmjs.org/prettier-plugin-solidity
+281 verbose request uri https://registry.npmjs.org/solhint
+282 verbose request no auth needed
+283 info attempt registry request try #1 at 6:04:34 PM
+284 http request GET https://registry.npmjs.org/solhint
+285 verbose request uri https://registry.npmjs.org/solhint-plugin-prettier
+286 verbose request no auth needed
+287 info attempt registry request try #1 at 6:04:34 PM
+288 http request GET https://registry.npmjs.org/solhint-plugin-prettier
+289 verbose request uri https://registry.npmjs.org/solidity-coverage
+290 verbose request no auth needed
+291 info attempt registry request try #1 at 6:04:34 PM
+292 http request GET https://registry.npmjs.org/solidity-coverage
+293 verbose request uri https://registry.npmjs.org/ts-generator
+294 verbose request no auth needed
+295 info attempt registry request try #1 at 6:04:34 PM
+296 http request GET https://registry.npmjs.org/ts-generator
+297 verbose request uri https://registry.npmjs.org/ts-node
+298 verbose request no auth needed
+299 info attempt registry request try #1 at 6:04:34 PM
+300 http request GET https://registry.npmjs.org/ts-node
+301 verbose request uri https://registry.npmjs.org/typechain
+302 verbose request no auth needed
+303 info attempt registry request try #1 at 6:04:34 PM
+304 http request GET https://registry.npmjs.org/typechain
+305 verbose request uri https://registry.npmjs.org/typescript
+306 verbose request no auth needed
+307 info attempt registry request try #1 at 6:04:34 PM
+308 http request GET https://registry.npmjs.org/typescript
+309 http 200 https://registry.npmjs.org/chai
+310 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+310 verbose headers   'content-type': 'application/json',
+310 verbose headers   'transfer-encoding': 'chunked',
+310 verbose headers   connection: 'keep-alive',
+310 verbose headers   'cf-ray': '6e7fc26aecd87d88-LAX',
+310 verbose headers   age: '98',
+310 verbose headers   'cache-control': 'public, max-age=300',
+310 verbose headers   etag: 'W/"763ce3ec4aa12d65c0d8a2993cd8120b"',
+310 verbose headers   'last-modified': 'Wed, 26 Jan 2022 13:11:01 GMT',
+310 verbose headers   vary: 'accept-encoding, accept',
+310 verbose headers   'cf-cache-status': 'HIT',
+310 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+310 verbose headers   'x-amz-replication-status': 'COMPLETED',
+310 verbose headers   server: 'cloudflare',
+310 verbose headers   'content-encoding': 'gzip' }
+311 silly get cb [ 200,
+311 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+311 silly get     'content-type': 'application/json',
+311 silly get     'transfer-encoding': 'chunked',
+311 silly get     connection: 'keep-alive',
+311 silly get     'cf-ray': '6e7fc26aecd87d88-LAX',
+311 silly get     age: '98',
+311 silly get     'cache-control': 'public, max-age=300',
+311 silly get     etag: 'W/"763ce3ec4aa12d65c0d8a2993cd8120b"',
+311 silly get     'last-modified': 'Wed, 26 Jan 2022 13:11:01 GMT',
+311 silly get     vary: 'accept-encoding, accept',
+311 silly get     'cf-cache-status': 'HIT',
+311 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+311 silly get     'x-amz-replication-status': 'COMPLETED',
+311 silly get     server: 'cloudflare',
+311 silly get     'content-encoding': 'gzip' } ]
+312 verbose get saving chai to /home/ajklein99/.npm/registry.npmjs.org/chai/.cache.json
+313 http 200 https://registry.npmjs.org/dotenv
+314 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+314 verbose headers   'content-type': 'application/json',
+314 verbose headers   'transfer-encoding': 'chunked',
+314 verbose headers   connection: 'keep-alive',
+314 verbose headers   'cf-ray': '6e7fc26afd930d40-LAX',
+314 verbose headers   age: '69',
+314 verbose headers   'cache-control': 'public, max-age=300',
+314 verbose headers   etag: 'W/"71862ba32823ba45cca95218b879956c"',
+314 verbose headers   'last-modified': 'Sat, 05 Mar 2022 07:45:09 GMT',
+314 verbose headers   vary: 'accept-encoding, accept',
+314 verbose headers   'cf-cache-status': 'HIT',
+314 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+314 verbose headers   'x-amz-replication-status': 'PENDING',
+314 verbose headers   server: 'cloudflare',
+314 verbose headers   'content-encoding': 'gzip' }
+315 silly get cb [ 200,
+315 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+315 silly get     'content-type': 'application/json',
+315 silly get     'transfer-encoding': 'chunked',
+315 silly get     connection: 'keep-alive',
+315 silly get     'cf-ray': '6e7fc26afd930d40-LAX',
+315 silly get     age: '69',
+315 silly get     'cache-control': 'public, max-age=300',
+315 silly get     etag: 'W/"71862ba32823ba45cca95218b879956c"',
+315 silly get     'last-modified': 'Sat, 05 Mar 2022 07:45:09 GMT',
+315 silly get     vary: 'accept-encoding, accept',
+315 silly get     'cf-cache-status': 'HIT',
+315 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+315 silly get     'x-amz-replication-status': 'PENDING',
+315 silly get     server: 'cloudflare',
+315 silly get     'content-encoding': 'gzip' } ]
+316 verbose get saving dotenv to /home/ajklein99/.npm/registry.npmjs.org/dotenv/.cache.json
+317 http 200 https://registry.npmjs.org/hardhat-deploy-ethers
+318 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+318 verbose headers   'content-type': 'application/json',
+318 verbose headers   'transfer-encoding': 'chunked',
+318 verbose headers   connection: 'keep-alive',
+318 verbose headers   'cf-ray': '6e7fc26aefe97ab3-LAX',
+318 verbose headers   'cache-control': 'public, max-age=300',
+318 verbose headers   etag: 'W/"36622a3f10065f3485b67a035567c36b"',
+318 verbose headers   'last-modified': 'Tue, 04 Jan 2022 15:53:19 GMT',
+318 verbose headers   vary: 'accept-encoding, accept',
+318 verbose headers   'cf-cache-status': 'REVALIDATED',
+318 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+318 verbose headers   'x-amz-replication-status': 'COMPLETED',
+318 verbose headers   server: 'cloudflare',
+318 verbose headers   'content-encoding': 'gzip' }
+319 silly get cb [ 200,
+319 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+319 silly get     'content-type': 'application/json',
+319 silly get     'transfer-encoding': 'chunked',
+319 silly get     connection: 'keep-alive',
+319 silly get     'cf-ray': '6e7fc26aefe97ab3-LAX',
+319 silly get     'cache-control': 'public, max-age=300',
+319 silly get     etag: 'W/"36622a3f10065f3485b67a035567c36b"',
+319 silly get     'last-modified': 'Tue, 04 Jan 2022 15:53:19 GMT',
+319 silly get     vary: 'accept-encoding, accept',
+319 silly get     'cf-cache-status': 'REVALIDATED',
+319 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+319 silly get     'x-amz-replication-status': 'COMPLETED',
+319 silly get     server: 'cloudflare',
+319 silly get     'content-encoding': 'gzip' } ]
+320 verbose get saving hardhat-deploy-ethers to /home/ajklein99/.npm/registry.npmjs.org/hardhat-deploy-ethers/.cache.json
+321 http 200 https://registry.npmjs.org/hardhat-abi-exporter
+322 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+322 verbose headers   'content-type': 'application/json',
+322 verbose headers   'transfer-encoding': 'chunked',
+322 verbose headers   connection: 'keep-alive',
+322 verbose headers   'cf-ray': '6e7fc26b0e1f7e74-LAX',
+322 verbose headers   'cache-control': 'public, max-age=300',
+322 verbose headers   etag: 'W/"eb249c6c49176a1a753898f5115c0c6a"',
+322 verbose headers   'last-modified': 'Mon, 17 Jan 2022 18:24:25 GMT',
+322 verbose headers   vary: 'accept-encoding, accept',
+322 verbose headers   'cf-cache-status': 'MISS',
+322 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+322 verbose headers   'x-amz-replication-status': 'COMPLETED',
+322 verbose headers   server: 'cloudflare',
+322 verbose headers   'content-encoding': 'gzip' }
+323 silly get cb [ 200,
+323 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+323 silly get     'content-type': 'application/json',
+323 silly get     'transfer-encoding': 'chunked',
+323 silly get     connection: 'keep-alive',
+323 silly get     'cf-ray': '6e7fc26b0e1f7e74-LAX',
+323 silly get     'cache-control': 'public, max-age=300',
+323 silly get     etag: 'W/"eb249c6c49176a1a753898f5115c0c6a"',
+323 silly get     'last-modified': 'Mon, 17 Jan 2022 18:24:25 GMT',
+323 silly get     vary: 'accept-encoding, accept',
+323 silly get     'cf-cache-status': 'MISS',
+323 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+323 silly get     'x-amz-replication-status': 'COMPLETED',
+323 silly get     server: 'cloudflare',
+323 silly get     'content-encoding': 'gzip' } ]
+324 verbose get saving hardhat-abi-exporter to /home/ajklein99/.npm/registry.npmjs.org/hardhat-abi-exporter/.cache.json
+325 http 404 https://registry.npmjs.org/@traderRip-xyz%2fsdk
+326 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+326 verbose headers   'content-type': 'application/json',
+326 verbose headers   'content-length': '21',
+326 verbose headers   connection: 'keep-alive',
+326 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+326 verbose headers   vary: 'Accept-Encoding',
+326 verbose headers   server: 'cloudflare',
+326 verbose headers   'cf-ray': '6e7fc26b0a797dbe-LAX' }
+327 silly get cb [ 404,
+327 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+327 silly get     'content-type': 'application/json',
+327 silly get     'content-length': '21',
+327 silly get     connection: 'keep-alive',
+327 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+327 silly get     vary: 'Accept-Encoding',
+327 silly get     server: 'cloudflare',
+327 silly get     'cf-ray': '6e7fc26b0a797dbe-LAX' } ]
+328 http 200 https://registry.npmjs.org/solhint
+329 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+329 verbose headers   'content-type': 'application/json',
+329 verbose headers   'transfer-encoding': 'chunked',
+329 verbose headers   connection: 'keep-alive',
+329 verbose headers   'cf-ray': '6e7fc26aebba7c97-LAX',
+329 verbose headers   'cache-control': 'public, max-age=300',
+329 verbose headers   etag: 'W/"7d864eba6386dc11263b575111388090"',
+329 verbose headers   'last-modified': 'Thu, 10 Feb 2022 12:44:53 GMT',
+329 verbose headers   vary: 'accept-encoding, accept',
+329 verbose headers   'cf-cache-status': 'MISS',
+329 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+329 verbose headers   'x-amz-replication-status': 'COMPLETED',
+329 verbose headers   server: 'cloudflare',
+329 verbose headers   'content-encoding': 'gzip' }
+330 silly get cb [ 200,
+330 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+330 silly get     'content-type': 'application/json',
+330 silly get     'transfer-encoding': 'chunked',
+330 silly get     connection: 'keep-alive',
+330 silly get     'cf-ray': '6e7fc26aebba7c97-LAX',
+330 silly get     'cache-control': 'public, max-age=300',
+330 silly get     etag: 'W/"7d864eba6386dc11263b575111388090"',
+330 silly get     'last-modified': 'Thu, 10 Feb 2022 12:44:53 GMT',
+330 silly get     vary: 'accept-encoding, accept',
+330 silly get     'cf-cache-status': 'MISS',
+330 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+330 silly get     'x-amz-replication-status': 'COMPLETED',
+330 silly get     server: 'cloudflare',
+330 silly get     'content-encoding': 'gzip' } ]
+331 verbose get saving solhint to /home/ajklein99/.npm/registry.npmjs.org/solhint/.cache.json
+332 http 200 https://registry.npmjs.org/prettier
+333 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+333 verbose headers   'content-type': 'application/json',
+333 verbose headers   'transfer-encoding': 'chunked',
+333 verbose headers   connection: 'keep-alive',
+333 verbose headers   'cf-ray': '6e7fc26b2d7c5251-LAX',
+333 verbose headers   'cache-control': 'public, max-age=300',
+333 verbose headers   etag: 'W/"c46ff80ff4b83204de842351ae187d03"',
+333 verbose headers   'last-modified': 'Sat, 04 Dec 2021 14:31:32 GMT',
+333 verbose headers   vary: 'accept-encoding, accept',
+333 verbose headers   'cf-cache-status': 'REVALIDATED',
+333 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+333 verbose headers   'x-amz-replication-status': 'COMPLETED',
+333 verbose headers   server: 'cloudflare',
+333 verbose headers   'content-encoding': 'gzip' }
+334 silly get cb [ 200,
+334 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+334 silly get     'content-type': 'application/json',
+334 silly get     'transfer-encoding': 'chunked',
+334 silly get     connection: 'keep-alive',
+334 silly get     'cf-ray': '6e7fc26b2d7c5251-LAX',
+334 silly get     'cache-control': 'public, max-age=300',
+334 silly get     etag: 'W/"c46ff80ff4b83204de842351ae187d03"',
+334 silly get     'last-modified': 'Sat, 04 Dec 2021 14:31:32 GMT',
+334 silly get     vary: 'accept-encoding, accept',
+334 silly get     'cf-cache-status': 'REVALIDATED',
+334 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+334 silly get     'x-amz-replication-status': 'COMPLETED',
+334 silly get     server: 'cloudflare',
+334 silly get     'content-encoding': 'gzip' } ]
+335 verbose get saving prettier to /home/ajklein99/.npm/registry.npmjs.org/prettier/.cache.json
+336 http 200 https://registry.npmjs.org/prettier-plugin-solidity
+337 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+337 verbose headers   'content-type': 'application/json',
+337 verbose headers   'transfer-encoding': 'chunked',
+337 verbose headers   connection: 'keep-alive',
+337 verbose headers   'cf-ray': '6e7fc26adc8a5220-LAX',
+337 verbose headers   'cache-control': 'public, max-age=300',
+337 verbose headers   etag: 'W/"8c0a4f7b7a1f8d7e55d4a387da0f2830"',
+337 verbose headers   'last-modified': 'Thu, 10 Feb 2022 12:16:01 GMT',
+337 verbose headers   vary: 'accept-encoding, accept',
+337 verbose headers   'cf-cache-status': 'MISS',
+337 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+337 verbose headers   'x-amz-replication-status': 'COMPLETED',
+337 verbose headers   server: 'cloudflare',
+337 verbose headers   'content-encoding': 'gzip' }
+338 silly get cb [ 200,
+338 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+338 silly get     'content-type': 'application/json',
+338 silly get     'transfer-encoding': 'chunked',
+338 silly get     connection: 'keep-alive',
+338 silly get     'cf-ray': '6e7fc26adc8a5220-LAX',
+338 silly get     'cache-control': 'public, max-age=300',
+338 silly get     etag: 'W/"8c0a4f7b7a1f8d7e55d4a387da0f2830"',
+338 silly get     'last-modified': 'Thu, 10 Feb 2022 12:16:01 GMT',
+338 silly get     vary: 'accept-encoding, accept',
+338 silly get     'cf-cache-status': 'MISS',
+338 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+338 silly get     'x-amz-replication-status': 'COMPLETED',
+338 silly get     server: 'cloudflare',
+338 silly get     'content-encoding': 'gzip' } ]
+339 verbose get saving prettier-plugin-solidity to /home/ajklein99/.npm/registry.npmjs.org/prettier-plugin-solidity/.cache.json
+340 http 200 https://registry.npmjs.org/hardhat-gas-reporter
+341 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+341 verbose headers   'content-type': 'application/json',
+341 verbose headers   'transfer-encoding': 'chunked',
+341 verbose headers   connection: 'keep-alive',
+341 verbose headers   'cf-ray': '6e7fc26adfbe319d-LAX',
+341 verbose headers   'cache-control': 'public, max-age=300',
+341 verbose headers   etag: 'W/"dc18a50526d9d62ed1172b97149e651d"',
+341 verbose headers   'last-modified': 'Tue, 15 Feb 2022 14:19:04 GMT',
+341 verbose headers   vary: 'accept-encoding, accept',
+341 verbose headers   'cf-cache-status': 'MISS',
+341 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+341 verbose headers   'x-amz-replication-status': 'COMPLETED',
+341 verbose headers   server: 'cloudflare',
+341 verbose headers   'content-encoding': 'gzip' }
+342 silly get cb [ 200,
+342 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+342 silly get     'content-type': 'application/json',
+342 silly get     'transfer-encoding': 'chunked',
+342 silly get     connection: 'keep-alive',
+342 silly get     'cf-ray': '6e7fc26adfbe319d-LAX',
+342 silly get     'cache-control': 'public, max-age=300',
+342 silly get     etag: 'W/"dc18a50526d9d62ed1172b97149e651d"',
+342 silly get     'last-modified': 'Tue, 15 Feb 2022 14:19:04 GMT',
+342 silly get     vary: 'accept-encoding, accept',
+342 silly get     'cf-cache-status': 'MISS',
+342 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+342 silly get     'x-amz-replication-status': 'COMPLETED',
+342 silly get     server: 'cloudflare',
+342 silly get     'content-encoding': 'gzip' } ]
+343 verbose get saving hardhat-gas-reporter to /home/ajklein99/.npm/registry.npmjs.org/hardhat-gas-reporter/.cache.json
+344 http 200 https://registry.npmjs.org/hardhat
+345 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+345 verbose headers   'content-type': 'application/json',
+345 verbose headers   'transfer-encoding': 'chunked',
+345 verbose headers   connection: 'keep-alive',
+345 verbose headers   'cf-ray': '6e7fc26add505319-LAX',
+345 verbose headers   'cache-control': 'public, max-age=300',
+345 verbose headers   etag: 'W/"ffce0d84955e7d0b799984c24f573cba"',
+345 verbose headers   'last-modified': 'Fri, 04 Mar 2022 21:29:49 GMT',
+345 verbose headers   vary: 'accept-encoding, accept',
+345 verbose headers   'cf-cache-status': 'REVALIDATED',
+345 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+345 verbose headers   'x-amz-replication-status': 'COMPLETED',
+345 verbose headers   server: 'cloudflare',
+345 verbose headers   'content-encoding': 'gzip' }
+346 silly get cb [ 200,
+346 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+346 silly get     'content-type': 'application/json',
+346 silly get     'transfer-encoding': 'chunked',
+346 silly get     connection: 'keep-alive',
+346 silly get     'cf-ray': '6e7fc26add505319-LAX',
+346 silly get     'cache-control': 'public, max-age=300',
+346 silly get     etag: 'W/"ffce0d84955e7d0b799984c24f573cba"',
+346 silly get     'last-modified': 'Fri, 04 Mar 2022 21:29:49 GMT',
+346 silly get     vary: 'accept-encoding, accept',
+346 silly get     'cf-cache-status': 'REVALIDATED',
+346 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+346 silly get     'x-amz-replication-status': 'COMPLETED',
+346 silly get     server: 'cloudflare',
+346 silly get     'content-encoding': 'gzip' } ]
+347 verbose get saving hardhat to /home/ajklein99/.npm/registry.npmjs.org/hardhat/.cache.json
+348 http 200 https://registry.npmjs.org/solhint-plugin-prettier
+349 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+349 verbose headers   'content-type': 'application/json',
+349 verbose headers   'transfer-encoding': 'chunked',
+349 verbose headers   connection: 'keep-alive',
+349 verbose headers   'cf-ray': '6e7fc26ccd887bf2-LAX',
+349 verbose headers   'cache-control': 'public, max-age=300',
+349 verbose headers   etag: 'W/"4b5595f2e675c5f170e2b78f03dafee7"',
+349 verbose headers   'last-modified': 'Mon, 24 Aug 2020 22:09:42 GMT',
+349 verbose headers   vary: 'accept-encoding, accept',
+349 verbose headers   'cf-cache-status': 'MISS',
+349 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+349 verbose headers   server: 'cloudflare',
+349 verbose headers   'content-encoding': 'gzip' }
+350 silly get cb [ 200,
+350 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+350 silly get     'content-type': 'application/json',
+350 silly get     'transfer-encoding': 'chunked',
+350 silly get     connection: 'keep-alive',
+350 silly get     'cf-ray': '6e7fc26ccd887bf2-LAX',
+350 silly get     'cache-control': 'public, max-age=300',
+350 silly get     etag: 'W/"4b5595f2e675c5f170e2b78f03dafee7"',
+350 silly get     'last-modified': 'Mon, 24 Aug 2020 22:09:42 GMT',
+350 silly get     vary: 'accept-encoding, accept',
+350 silly get     'cf-cache-status': 'MISS',
+350 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+350 silly get     server: 'cloudflare',
+350 silly get     'content-encoding': 'gzip' } ]
+351 verbose get saving solhint-plugin-prettier to /home/ajklein99/.npm/registry.npmjs.org/solhint-plugin-prettier/.cache.json
+352 http 200 https://registry.npmjs.org/@tenderly%2fhardhat-tenderly
+353 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+353 verbose headers   'content-type': 'application/json',
+353 verbose headers   'transfer-encoding': 'chunked',
+353 verbose headers   connection: 'keep-alive',
+353 verbose headers   'cf-ray': '6e7fc26ad93331f7-LAX',
+353 verbose headers   'cache-control': 'public, max-age=300',
+353 verbose headers   etag: 'W/"cafb1768a9b3530689b268541a6a600f"',
+353 verbose headers   'last-modified': 'Mon, 17 Jan 2022 16:05:34 GMT',
+353 verbose headers   vary: 'accept-encoding, accept',
+353 verbose headers   'cf-cache-status': 'MISS',
+353 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+353 verbose headers   'x-amz-replication-status': 'COMPLETED',
+353 verbose headers   server: 'cloudflare',
+353 verbose headers   'content-encoding': 'gzip' }
+354 silly get cb [ 200,
+354 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+354 silly get     'content-type': 'application/json',
+354 silly get     'transfer-encoding': 'chunked',
+354 silly get     connection: 'keep-alive',
+354 silly get     'cf-ray': '6e7fc26ad93331f7-LAX',
+354 silly get     'cache-control': 'public, max-age=300',
+354 silly get     etag: 'W/"cafb1768a9b3530689b268541a6a600f"',
+354 silly get     'last-modified': 'Mon, 17 Jan 2022 16:05:34 GMT',
+354 silly get     vary: 'accept-encoding, accept',
+354 silly get     'cf-cache-status': 'MISS',
+354 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+354 silly get     'x-amz-replication-status': 'COMPLETED',
+354 silly get     server: 'cloudflare',
+354 silly get     'content-encoding': 'gzip' } ]
+355 verbose get saving @tenderly/hardhat-tenderly to /home/ajklein99/.npm/registry.npmjs.org/_40tenderly_252fhardhat-tenderly/.cache.json
+356 http 200 https://registry.npmjs.org/@openzeppelin%2fcontracts
+357 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+357 verbose headers   'content-type': 'application/json',
+357 verbose headers   'transfer-encoding': 'chunked',
+357 verbose headers   connection: 'keep-alive',
+357 verbose headers   'cf-ray': '6e7fc26c39227c55-LAX',
+357 verbose headers   'cache-control': 'public, max-age=300',
+357 verbose headers   etag: 'W/"e30107116660cff27a96cd058381c01c"',
+357 verbose headers   'last-modified': 'Wed, 09 Feb 2022 19:07:43 GMT',
+357 verbose headers   vary: 'accept-encoding, accept',
+357 verbose headers   'cf-cache-status': 'REVALIDATED',
+357 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+357 verbose headers   'x-amz-replication-status': 'COMPLETED',
+357 verbose headers   server: 'cloudflare',
+357 verbose headers   'content-encoding': 'gzip' }
+358 silly get cb [ 200,
+358 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+358 silly get     'content-type': 'application/json',
+358 silly get     'transfer-encoding': 'chunked',
+358 silly get     connection: 'keep-alive',
+358 silly get     'cf-ray': '6e7fc26c39227c55-LAX',
+358 silly get     'cache-control': 'public, max-age=300',
+358 silly get     etag: 'W/"e30107116660cff27a96cd058381c01c"',
+358 silly get     'last-modified': 'Wed, 09 Feb 2022 19:07:43 GMT',
+358 silly get     vary: 'accept-encoding, accept',
+358 silly get     'cf-cache-status': 'REVALIDATED',
+358 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+358 silly get     'x-amz-replication-status': 'COMPLETED',
+358 silly get     server: 'cloudflare',
+358 silly get     'content-encoding': 'gzip' } ]
+359 verbose get saving @openzeppelin/contracts to /home/ajklein99/.npm/registry.npmjs.org/_40openzeppelin_252fcontracts/.cache.json
+360 http 200 https://registry.npmjs.org/hardhat-preprocessor
+361 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+361 verbose headers   'content-type': 'application/json',
+361 verbose headers   'transfer-encoding': 'chunked',
+361 verbose headers   connection: 'keep-alive',
+361 verbose headers   'cf-ray': '6e7fc26aeb095263-LAX',
+361 verbose headers   'cache-control': 'public, max-age=300',
+361 verbose headers   etag: 'W/"aa35c4be8ea4a400f734d8ea1d2fba76"',
+361 verbose headers   'last-modified': 'Fri, 14 May 2021 19:30:00 GMT',
+361 verbose headers   vary: 'accept-encoding, accept',
+361 verbose headers   'cf-cache-status': 'MISS',
+361 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+361 verbose headers   server: 'cloudflare',
+361 verbose headers   'content-encoding': 'gzip' }
+362 silly get cb [ 200,
+362 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+362 silly get     'content-type': 'application/json',
+362 silly get     'transfer-encoding': 'chunked',
+362 silly get     connection: 'keep-alive',
+362 silly get     'cf-ray': '6e7fc26aeb095263-LAX',
+362 silly get     'cache-control': 'public, max-age=300',
+362 silly get     etag: 'W/"aa35c4be8ea4a400f734d8ea1d2fba76"',
+362 silly get     'last-modified': 'Fri, 14 May 2021 19:30:00 GMT',
+362 silly get     vary: 'accept-encoding, accept',
+362 silly get     'cf-cache-status': 'MISS',
+362 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+362 silly get     server: 'cloudflare',
+362 silly get     'content-encoding': 'gzip' } ]
+363 verbose get saving hardhat-preprocessor to /home/ajklein99/.npm/registry.npmjs.org/hardhat-preprocessor/.cache.json
+364 http 200 https://registry.npmjs.org/hardhat-spdx-license-identifier
+365 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+365 verbose headers   'content-type': 'application/json',
+365 verbose headers   'transfer-encoding': 'chunked',
+365 verbose headers   connection: 'keep-alive',
+365 verbose headers   'cf-ray': '6e7fc26c3a2b7c36-LAX',
+365 verbose headers   'cache-control': 'public, max-age=300',
+365 verbose headers   etag: 'W/"4da9a31bf19cb5934a865667bd1e568c"',
+365 verbose headers   'last-modified': 'Fri, 08 Jan 2021 01:33:22 GMT',
+365 verbose headers   vary: 'accept-encoding, accept',
+365 verbose headers   'cf-cache-status': 'MISS',
+365 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+365 verbose headers   server: 'cloudflare',
+365 verbose headers   'content-encoding': 'gzip' }
+366 silly get cb [ 200,
+366 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+366 silly get     'content-type': 'application/json',
+366 silly get     'transfer-encoding': 'chunked',
+366 silly get     connection: 'keep-alive',
+366 silly get     'cf-ray': '6e7fc26c3a2b7c36-LAX',
+366 silly get     'cache-control': 'public, max-age=300',
+366 silly get     etag: 'W/"4da9a31bf19cb5934a865667bd1e568c"',
+366 silly get     'last-modified': 'Fri, 08 Jan 2021 01:33:22 GMT',
+366 silly get     vary: 'accept-encoding, accept',
+366 silly get     'cf-cache-status': 'MISS',
+366 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+366 silly get     server: 'cloudflare',
+366 silly get     'content-encoding': 'gzip' } ]
+367 verbose get saving hardhat-spdx-license-identifier to /home/ajklein99/.npm/registry.npmjs.org/hardhat-spdx-license-identifier/.cache.json
+368 http 200 https://registry.npmjs.org/cross-env
+369 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+369 verbose headers   'content-type': 'application/json',
+369 verbose headers   'transfer-encoding': 'chunked',
+369 verbose headers   connection: 'keep-alive',
+369 verbose headers   'cf-ray': '6e7fc26cdc6d7d4e-LAX',
+369 verbose headers   'cache-control': 'public, max-age=300',
+369 verbose headers   etag: 'W/"80c413f5e1030b458f24106234fa7b3e"',
+369 verbose headers   'last-modified': 'Thu, 03 Mar 2022 07:30:45 GMT',
+369 verbose headers   vary: 'accept-encoding, accept',
+369 verbose headers   'cf-cache-status': 'REVALIDATED',
+369 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+369 verbose headers   'x-amz-replication-status': 'COMPLETED',
+369 verbose headers   server: 'cloudflare',
+369 verbose headers   'content-encoding': 'gzip' }
+370 silly get cb [ 200,
+370 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+370 silly get     'content-type': 'application/json',
+370 silly get     'transfer-encoding': 'chunked',
+370 silly get     connection: 'keep-alive',
+370 silly get     'cf-ray': '6e7fc26cdc6d7d4e-LAX',
+370 silly get     'cache-control': 'public, max-age=300',
+370 silly get     etag: 'W/"80c413f5e1030b458f24106234fa7b3e"',
+370 silly get     'last-modified': 'Thu, 03 Mar 2022 07:30:45 GMT',
+370 silly get     vary: 'accept-encoding, accept',
+370 silly get     'cf-cache-status': 'REVALIDATED',
+370 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+370 silly get     'x-amz-replication-status': 'COMPLETED',
+370 silly get     server: 'cloudflare',
+370 silly get     'content-encoding': 'gzip' } ]
+371 verbose get saving cross-env to /home/ajklein99/.npm/registry.npmjs.org/cross-env/.cache.json
+372 http 200 https://registry.npmjs.org/ts-generator
+373 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+373 verbose headers   'content-type': 'application/json',
+373 verbose headers   'transfer-encoding': 'chunked',
+373 verbose headers   connection: 'keep-alive',
+373 verbose headers   'cf-ray': '6e7fc26ae9485287-LAX',
+373 verbose headers   'cache-control': 'public, max-age=300',
+373 verbose headers   etag: 'W/"9fc65ac792dfd6db6b78da1987b7cdb7"',
+373 verbose headers   'last-modified': 'Sun, 11 Oct 2020 19:07:23 GMT',
+373 verbose headers   vary: 'accept-encoding, accept',
+373 verbose headers   'cf-cache-status': 'MISS',
+373 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+373 verbose headers   server: 'cloudflare',
+373 verbose headers   'content-encoding': 'gzip' }
+374 silly get cb [ 200,
+374 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+374 silly get     'content-type': 'application/json',
+374 silly get     'transfer-encoding': 'chunked',
+374 silly get     connection: 'keep-alive',
+374 silly get     'cf-ray': '6e7fc26ae9485287-LAX',
+374 silly get     'cache-control': 'public, max-age=300',
+374 silly get     etag: 'W/"9fc65ac792dfd6db6b78da1987b7cdb7"',
+374 silly get     'last-modified': 'Sun, 11 Oct 2020 19:07:23 GMT',
+374 silly get     vary: 'accept-encoding, accept',
+374 silly get     'cf-cache-status': 'MISS',
+374 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+374 silly get     server: 'cloudflare',
+374 silly get     'content-encoding': 'gzip' } ]
+375 verbose get saving ts-generator to /home/ajklein99/.npm/registry.npmjs.org/ts-generator/.cache.json
+376 http 200 https://registry.npmjs.org/typechain
+377 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+377 verbose headers   'content-type': 'application/json',
+377 verbose headers   'transfer-encoding': 'chunked',
+377 verbose headers   connection: 'keep-alive',
+377 verbose headers   'cf-ray': '6e7fc26cec687cec-LAX',
+377 verbose headers   'cache-control': 'public, max-age=300',
+377 verbose headers   etag: 'W/"7e13159bbc8a771a0fc7aa1500c4c1fe"',
+377 verbose headers   'last-modified': 'Mon, 10 Jan 2022 16:20:09 GMT',
+377 verbose headers   vary: 'accept-encoding, accept',
+377 verbose headers   'cf-cache-status': 'REVALIDATED',
+377 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+377 verbose headers   'x-amz-replication-status': 'COMPLETED',
+377 verbose headers   server: 'cloudflare',
+377 verbose headers   'content-encoding': 'gzip' }
+378 silly get cb [ 200,
+378 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+378 silly get     'content-type': 'application/json',
+378 silly get     'transfer-encoding': 'chunked',
+378 silly get     connection: 'keep-alive',
+378 silly get     'cf-ray': '6e7fc26cec687cec-LAX',
+378 silly get     'cache-control': 'public, max-age=300',
+378 silly get     etag: 'W/"7e13159bbc8a771a0fc7aa1500c4c1fe"',
+378 silly get     'last-modified': 'Mon, 10 Jan 2022 16:20:09 GMT',
+378 silly get     vary: 'accept-encoding, accept',
+378 silly get     'cf-cache-status': 'REVALIDATED',
+378 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+378 silly get     'x-amz-replication-status': 'COMPLETED',
+378 silly get     server: 'cloudflare',
+378 silly get     'content-encoding': 'gzip' } ]
+379 verbose get saving typechain to /home/ajklein99/.npm/registry.npmjs.org/typechain/.cache.json
+380 http 200 https://registry.npmjs.org/@openzeppelin%2fhardhat-upgrades
+381 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+381 verbose headers   'content-type': 'application/json',
+381 verbose headers   'transfer-encoding': 'chunked',
+381 verbose headers   connection: 'keep-alive',
+381 verbose headers   'cf-ray': '6e7fc26adf1a7c65-LAX',
+381 verbose headers   'cache-control': 'public, max-age=300',
+381 verbose headers   etag: 'W/"6ccc8951df1535bcb3e9d8a68c784bc9"',
+381 verbose headers   'last-modified': 'Tue, 01 Mar 2022 22:13:27 GMT',
+381 verbose headers   vary: 'accept-encoding, accept',
+381 verbose headers   'cf-cache-status': 'REVALIDATED',
+381 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+381 verbose headers   'x-amz-replication-status': 'COMPLETED',
+381 verbose headers   server: 'cloudflare',
+381 verbose headers   'content-encoding': 'gzip' }
+382 silly get cb [ 200,
+382 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+382 silly get     'content-type': 'application/json',
+382 silly get     'transfer-encoding': 'chunked',
+382 silly get     connection: 'keep-alive',
+382 silly get     'cf-ray': '6e7fc26adf1a7c65-LAX',
+382 silly get     'cache-control': 'public, max-age=300',
+382 silly get     etag: 'W/"6ccc8951df1535bcb3e9d8a68c784bc9"',
+382 silly get     'last-modified': 'Tue, 01 Mar 2022 22:13:27 GMT',
+382 silly get     vary: 'accept-encoding, accept',
+382 silly get     'cf-cache-status': 'REVALIDATED',
+382 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+382 silly get     'x-amz-replication-status': 'COMPLETED',
+382 silly get     server: 'cloudflare',
+382 silly get     'content-encoding': 'gzip' } ]
+383 verbose get saving @openzeppelin/hardhat-upgrades to /home/ajklein99/.npm/registry.npmjs.org/_40openzeppelin_252fhardhat-upgrades/.cache.json
+384 http 200 https://registry.npmjs.org/@nomiclabs%2fhardhat-solhint
+385 verbose headers { date: 'Mon, 07 Mar 2022 02:04:17 GMT',
+385 verbose headers   'content-type': 'application/json',
+385 verbose headers   'transfer-encoding': 'chunked',
+385 verbose headers   connection: 'keep-alive',
+385 verbose headers   'cf-ray': '6e7fc26d8a697c65-LAX',
+385 verbose headers   'cache-control': 'public, max-age=300',
+385 verbose headers   etag: 'W/"e9d8357d632dab2a3f58ea57b3934d4c"',
+385 verbose headers   'last-modified': 'Wed, 19 Jan 2022 17:43:36 GMT',
+385 verbose headers   vary: 'accept-encoding, accept',
+385 verbose headers   'cf-cache-status': 'MISS',
+385 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+385 verbose headers   'x-amz-replication-status': 'COMPLETED',
+385 verbose headers   server: 'cloudflare',
+385 verbose headers   'content-encoding': 'gzip' }
+386 silly get cb [ 200,
+386 silly get   { date: 'Mon, 07 Mar 2022 02:04:17 GMT',
+386 silly get     'content-type': 'application/json',
+386 silly get     'transfer-encoding': 'chunked',
+386 silly get     connection: 'keep-alive',
+386 silly get     'cf-ray': '6e7fc26d8a697c65-LAX',
+386 silly get     'cache-control': 'public, max-age=300',
+386 silly get     etag: 'W/"e9d8357d632dab2a3f58ea57b3934d4c"',
+386 silly get     'last-modified': 'Wed, 19 Jan 2022 17:43:36 GMT',
+386 silly get     vary: 'accept-encoding, accept',
+386 silly get     'cf-cache-status': 'MISS',
+386 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+386 silly get     'x-amz-replication-status': 'COMPLETED',
+386 silly get     server: 'cloudflare',
+386 silly get     'content-encoding': 'gzip' } ]
+387 verbose get saving @nomiclabs/hardhat-solhint to /home/ajklein99/.npm/registry.npmjs.org/_40nomiclabs_252fhardhat-solhint/.cache.json
+388 http 200 https://registry.npmjs.org/hardhat-watcher
+389 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+389 verbose headers   'content-type': 'application/json',
+389 verbose headers   'transfer-encoding': 'chunked',
+389 verbose headers   connection: 'keep-alive',
+389 verbose headers   'cf-ray': '6e7fc26cce357e6a-LAX',
+389 verbose headers   'cache-control': 'public, max-age=300',
+389 verbose headers   etag: 'W/"11185eeb34904a744f1532767efbe5e9"',
+389 verbose headers   'last-modified': 'Sat, 30 Jan 2021 10:13:32 GMT',
+389 verbose headers   vary: 'accept-encoding, accept',
+389 verbose headers   'cf-cache-status': 'MISS',
+389 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+389 verbose headers   server: 'cloudflare',
+389 verbose headers   'content-encoding': 'gzip' }
+390 silly get cb [ 200,
+390 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+390 silly get     'content-type': 'application/json',
+390 silly get     'transfer-encoding': 'chunked',
+390 silly get     connection: 'keep-alive',
+390 silly get     'cf-ray': '6e7fc26cce357e6a-LAX',
+390 silly get     'cache-control': 'public, max-age=300',
+390 silly get     etag: 'W/"11185eeb34904a744f1532767efbe5e9"',
+390 silly get     'last-modified': 'Sat, 30 Jan 2021 10:13:32 GMT',
+390 silly get     vary: 'accept-encoding, accept',
+390 silly get     'cf-cache-status': 'MISS',
+390 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+390 silly get     server: 'cloudflare',
+390 silly get     'content-encoding': 'gzip' } ]
+391 verbose get saving hardhat-watcher to /home/ajklein99/.npm/registry.npmjs.org/hardhat-watcher/.cache.json
+392 http 200 https://registry.npmjs.org/hardhat-typechain
+393 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+393 verbose headers   'content-type': 'application/json',
+393 verbose headers   'transfer-encoding': 'chunked',
+393 verbose headers   connection: 'keep-alive',
+393 verbose headers   'cf-ray': '6e7fc26aeeaf7dc2-LAX',
+393 verbose headers   'cache-control': 'public, max-age=300',
+393 verbose headers   etag: 'W/"ae1e6a2fa9d5817fe53f0a6dd09d5bf4"',
+393 verbose headers   'last-modified': 'Wed, 17 Feb 2021 10:53:49 GMT',
+393 verbose headers   vary: 'accept-encoding, accept',
+393 verbose headers   'cf-cache-status': 'REVALIDATED',
+393 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+393 verbose headers   server: 'cloudflare',
+393 verbose headers   'content-encoding': 'gzip' }
+394 silly get cb [ 200,
+394 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+394 silly get     'content-type': 'application/json',
+394 silly get     'transfer-encoding': 'chunked',
+394 silly get     connection: 'keep-alive',
+394 silly get     'cf-ray': '6e7fc26aeeaf7dc2-LAX',
+394 silly get     'cache-control': 'public, max-age=300',
+394 silly get     etag: 'W/"ae1e6a2fa9d5817fe53f0a6dd09d5bf4"',
+394 silly get     'last-modified': 'Wed, 17 Feb 2021 10:53:49 GMT',
+394 silly get     vary: 'accept-encoding, accept',
+394 silly get     'cf-cache-status': 'REVALIDATED',
+394 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+394 silly get     server: 'cloudflare',
+394 silly get     'content-encoding': 'gzip' } ]
+395 verbose get saving hardhat-typechain to /home/ajklein99/.npm/registry.npmjs.org/hardhat-typechain/.cache.json
+396 http 200 https://registry.npmjs.org/@types%2fmocha
+397 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+397 verbose headers   'content-type': 'application/json',
+397 verbose headers   'transfer-encoding': 'chunked',
+397 verbose headers   connection: 'keep-alive',
+397 verbose headers   'cf-ray': '6e7fc26aeebe7cfe-LAX',
+397 verbose headers   age: '102',
+397 verbose headers   'cache-control': 'public, max-age=300',
+397 verbose headers   etag: 'W/"f3491e35400da4ff3f57842ed27c8750"',
+397 verbose headers   'last-modified': 'Mon, 14 Feb 2022 08:25:10 GMT',
+397 verbose headers   vary: 'accept-encoding, accept',
+397 verbose headers   'cf-cache-status': 'HIT',
+397 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+397 verbose headers   'x-amz-replication-status': 'PENDING',
+397 verbose headers   server: 'cloudflare',
+397 verbose headers   'content-encoding': 'gzip' }
+398 silly get cb [ 200,
+398 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+398 silly get     'content-type': 'application/json',
+398 silly get     'transfer-encoding': 'chunked',
+398 silly get     connection: 'keep-alive',
+398 silly get     'cf-ray': '6e7fc26aeebe7cfe-LAX',
+398 silly get     age: '102',
+398 silly get     'cache-control': 'public, max-age=300',
+398 silly get     etag: 'W/"f3491e35400da4ff3f57842ed27c8750"',
+398 silly get     'last-modified': 'Mon, 14 Feb 2022 08:25:10 GMT',
+398 silly get     vary: 'accept-encoding, accept',
+398 silly get     'cf-cache-status': 'HIT',
+398 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+398 silly get     'x-amz-replication-status': 'PENDING',
+398 silly get     server: 'cloudflare',
+398 silly get     'content-encoding': 'gzip' } ]
+399 verbose get saving @types/mocha to /home/ajklein99/.npm/registry.npmjs.org/_40types_252fmocha/.cache.json
+400 http 200 https://registry.npmjs.org/hardhat-deploy
+401 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+401 verbose headers   'content-type': 'application/json',
+401 verbose headers   'transfer-encoding': 'chunked',
+401 verbose headers   connection: 'keep-alive',
+401 verbose headers   'cf-ray': '6e7fc26cda9f7ec9-LAX',
+401 verbose headers   'cache-control': 'public, max-age=300',
+401 verbose headers   etag: 'W/"6d4e09bed935c69c62de1d6f76069ec4"',
+401 verbose headers   'last-modified': 'Tue, 01 Mar 2022 07:07:38 GMT',
+401 verbose headers   vary: 'accept-encoding, accept',
+401 verbose headers   'cf-cache-status': 'REVALIDATED',
+401 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+401 verbose headers   'x-amz-replication-status': 'COMPLETED',
+401 verbose headers   server: 'cloudflare',
+401 verbose headers   'content-encoding': 'gzip' }
+402 silly get cb [ 200,
+402 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+402 silly get     'content-type': 'application/json',
+402 silly get     'transfer-encoding': 'chunked',
+402 silly get     connection: 'keep-alive',
+402 silly get     'cf-ray': '6e7fc26cda9f7ec9-LAX',
+402 silly get     'cache-control': 'public, max-age=300',
+402 silly get     etag: 'W/"6d4e09bed935c69c62de1d6f76069ec4"',
+402 silly get     'last-modified': 'Tue, 01 Mar 2022 07:07:38 GMT',
+402 silly get     vary: 'accept-encoding, accept',
+402 silly get     'cf-cache-status': 'REVALIDATED',
+402 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+402 silly get     'x-amz-replication-status': 'COMPLETED',
+402 silly get     server: 'cloudflare',
+402 silly get     'content-encoding': 'gzip' } ]
+403 verbose get saving hardhat-deploy to /home/ajklein99/.npm/registry.npmjs.org/hardhat-deploy/.cache.json
+404 http 200 https://registry.npmjs.org/@openzeppelin%2fcontracts-upgradeable
+405 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+405 verbose headers   'content-type': 'application/json',
+405 verbose headers   'transfer-encoding': 'chunked',
+405 verbose headers   connection: 'keep-alive',
+405 verbose headers   'cf-ray': '6e7fc26ad92f7c50-LAX',
+405 verbose headers   'cache-control': 'public, max-age=300',
+405 verbose headers   etag: 'W/"717f045a4e242c803b744b21a5ff02b2"',
+405 verbose headers   'last-modified': 'Wed, 02 Mar 2022 20:35:22 GMT',
+405 verbose headers   vary: 'accept-encoding, accept',
+405 verbose headers   'cf-cache-status': 'REVALIDATED',
+405 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+405 verbose headers   'x-amz-replication-status': 'COMPLETED',
+405 verbose headers   server: 'cloudflare',
+405 verbose headers   'content-encoding': 'gzip' }
+406 silly get cb [ 200,
+406 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+406 silly get     'content-type': 'application/json',
+406 silly get     'transfer-encoding': 'chunked',
+406 silly get     connection: 'keep-alive',
+406 silly get     'cf-ray': '6e7fc26ad92f7c50-LAX',
+406 silly get     'cache-control': 'public, max-age=300',
+406 silly get     etag: 'W/"717f045a4e242c803b744b21a5ff02b2"',
+406 silly get     'last-modified': 'Wed, 02 Mar 2022 20:35:22 GMT',
+406 silly get     vary: 'accept-encoding, accept',
+406 silly get     'cf-cache-status': 'REVALIDATED',
+406 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+406 silly get     'x-amz-replication-status': 'COMPLETED',
+406 silly get     server: 'cloudflare',
+406 silly get     'content-encoding': 'gzip' } ]
+407 verbose get saving @openzeppelin/contracts-upgradeable to /home/ajklein99/.npm/registry.npmjs.org/_40openzeppelin_252fcontracts-upgradeable/.cache.json
+408 http 200 https://registry.npmjs.org/@nomiclabs%2fhardhat-etherscan
+409 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+409 verbose headers   'content-type': 'application/json',
+409 verbose headers   'transfer-encoding': 'chunked',
+409 verbose headers   connection: 'keep-alive',
+409 verbose headers   'cf-ray': '6e7fc26addb33235-LAX',
+409 verbose headers   'cache-control': 'public, max-age=300',
+409 verbose headers   etag: 'W/"6183946c358d71d48e6238d0661aa172"',
+409 verbose headers   'last-modified': 'Wed, 02 Mar 2022 21:57:06 GMT',
+409 verbose headers   vary: 'accept-encoding, accept',
+409 verbose headers   'cf-cache-status': 'REVALIDATED',
+409 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+409 verbose headers   'x-amz-replication-status': 'COMPLETED',
+409 verbose headers   server: 'cloudflare',
+409 verbose headers   'content-encoding': 'gzip' }
+410 silly get cb [ 200,
+410 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+410 silly get     'content-type': 'application/json',
+410 silly get     'transfer-encoding': 'chunked',
+410 silly get     connection: 'keep-alive',
+410 silly get     'cf-ray': '6e7fc26addb33235-LAX',
+410 silly get     'cache-control': 'public, max-age=300',
+410 silly get     etag: 'W/"6183946c358d71d48e6238d0661aa172"',
+410 silly get     'last-modified': 'Wed, 02 Mar 2022 21:57:06 GMT',
+410 silly get     vary: 'accept-encoding, accept',
+410 silly get     'cf-cache-status': 'REVALIDATED',
+410 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+410 silly get     'x-amz-replication-status': 'COMPLETED',
+410 silly get     server: 'cloudflare',
+410 silly get     'content-encoding': 'gzip' } ]
+411 verbose get saving @nomiclabs/hardhat-etherscan to /home/ajklein99/.npm/registry.npmjs.org/_40nomiclabs_252fhardhat-etherscan/.cache.json
+412 http 200 https://registry.npmjs.org/@nomiclabs%2fhardhat-waffle
+413 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+413 verbose headers   'content-type': 'application/json',
+413 verbose headers   'transfer-encoding': 'chunked',
+413 verbose headers   connection: 'keep-alive',
+413 verbose headers   'cf-ray': '6e7fc26d7fc17ea1-LAX',
+413 verbose headers   age: '63',
+413 verbose headers   'cache-control': 'public, max-age=300',
+413 verbose headers   etag: 'W/"5101bdaa4e209630d5968845c4bedd00"',
+413 verbose headers   'last-modified': 'Tue, 01 Mar 2022 12:17:18 GMT',
+413 verbose headers   vary: 'accept-encoding, accept',
+413 verbose headers   'cf-cache-status': 'HIT',
+413 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+413 verbose headers   'x-amz-replication-status': 'COMPLETED',
+413 verbose headers   server: 'cloudflare',
+413 verbose headers   'content-encoding': 'gzip' }
+414 silly get cb [ 200,
+414 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+414 silly get     'content-type': 'application/json',
+414 silly get     'transfer-encoding': 'chunked',
+414 silly get     connection: 'keep-alive',
+414 silly get     'cf-ray': '6e7fc26d7fc17ea1-LAX',
+414 silly get     age: '63',
+414 silly get     'cache-control': 'public, max-age=300',
+414 silly get     etag: 'W/"5101bdaa4e209630d5968845c4bedd00"',
+414 silly get     'last-modified': 'Tue, 01 Mar 2022 12:17:18 GMT',
+414 silly get     vary: 'accept-encoding, accept',
+414 silly get     'cf-cache-status': 'HIT',
+414 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+414 silly get     'x-amz-replication-status': 'COMPLETED',
+414 silly get     server: 'cloudflare',
+414 silly get     'content-encoding': 'gzip' } ]
+415 verbose get saving @nomiclabs/hardhat-waffle to /home/ajklein99/.npm/registry.npmjs.org/_40nomiclabs_252fhardhat-waffle/.cache.json
+416 http 200 https://registry.npmjs.org/ts-node
+417 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+417 verbose headers   'content-type': 'application/json',
+417 verbose headers   'transfer-encoding': 'chunked',
+417 verbose headers   connection: 'keep-alive',
+417 verbose headers   'cf-ray': '6e7fc26b2c457be3-LAX',
+417 verbose headers   'cache-control': 'public, max-age=300',
+417 verbose headers   etag: 'W/"e125dcc2955ffc5f0511a56e82a117e9"',
+417 verbose headers   'last-modified': 'Sun, 06 Mar 2022 04:24:52 GMT',
+417 verbose headers   vary: 'accept-encoding, accept',
+417 verbose headers   'cf-cache-status': 'REVALIDATED',
+417 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+417 verbose headers   'x-amz-replication-status': 'COMPLETED',
+417 verbose headers   server: 'cloudflare',
+417 verbose headers   'content-encoding': 'gzip' }
+418 silly get cb [ 200,
+418 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+418 silly get     'content-type': 'application/json',
+418 silly get     'transfer-encoding': 'chunked',
+418 silly get     connection: 'keep-alive',
+418 silly get     'cf-ray': '6e7fc26b2c457be3-LAX',
+418 silly get     'cache-control': 'public, max-age=300',
+418 silly get     etag: 'W/"e125dcc2955ffc5f0511a56e82a117e9"',
+418 silly get     'last-modified': 'Sun, 06 Mar 2022 04:24:52 GMT',
+418 silly get     vary: 'accept-encoding, accept',
+418 silly get     'cf-cache-status': 'REVALIDATED',
+418 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+418 silly get     'x-amz-replication-status': 'COMPLETED',
+418 silly get     server: 'cloudflare',
+418 silly get     'content-encoding': 'gzip' } ]
+419 verbose get saving ts-node to /home/ajklein99/.npm/registry.npmjs.org/ts-node/.cache.json
+420 http 200 https://registry.npmjs.org/@typechain%2fethers-v5
+421 verbose headers { date: 'Mon, 07 Mar 2022 02:04:17 GMT',
+421 verbose headers   'content-type': 'application/json',
+421 verbose headers   'transfer-encoding': 'chunked',
+421 verbose headers   connection: 'keep-alive',
+421 verbose headers   'cf-ray': '6e7fc26cdcea7d04-LAX',
+421 verbose headers   'cache-control': 'public, max-age=300',
+421 verbose headers   etag: 'W/"b2e4df00bdd1003ac966e01cf6ce6d39"',
+421 verbose headers   'last-modified': 'Mon, 10 Jan 2022 16:20:07 GMT',
+421 verbose headers   vary: 'accept-encoding, accept',
+421 verbose headers   'cf-cache-status': 'MISS',
+421 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+421 verbose headers   'x-amz-replication-status': 'COMPLETED',
+421 verbose headers   server: 'cloudflare',
+421 verbose headers   'content-encoding': 'gzip' }
+422 silly get cb [ 200,
+422 silly get   { date: 'Mon, 07 Mar 2022 02:04:17 GMT',
+422 silly get     'content-type': 'application/json',
+422 silly get     'transfer-encoding': 'chunked',
+422 silly get     connection: 'keep-alive',
+422 silly get     'cf-ray': '6e7fc26cdcea7d04-LAX',
+422 silly get     'cache-control': 'public, max-age=300',
+422 silly get     etag: 'W/"b2e4df00bdd1003ac966e01cf6ce6d39"',
+422 silly get     'last-modified': 'Mon, 10 Jan 2022 16:20:07 GMT',
+422 silly get     vary: 'accept-encoding, accept',
+422 silly get     'cf-cache-status': 'MISS',
+422 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+422 silly get     'x-amz-replication-status': 'COMPLETED',
+422 silly get     server: 'cloudflare',
+422 silly get     'content-encoding': 'gzip' } ]
+423 verbose get saving @typechain/ethers-v5 to /home/ajklein99/.npm/registry.npmjs.org/_40typechain_252fethers-v5/.cache.json
+424 http 200 https://registry.npmjs.org/@types%2fnode
+425 verbose headers { date: 'Mon, 07 Mar 2022 02:04:17 GMT',
+425 verbose headers   'content-type': 'application/json',
+425 verbose headers   'transfer-encoding': 'chunked',
+425 verbose headers   connection: 'keep-alive',
+425 verbose headers   'cf-ray': '6e7fc26faa537e9b-LAX',
+425 verbose headers   age: '244',
+425 verbose headers   'cache-control': 'public, max-age=300',
+425 verbose headers   etag: 'W/"c886cf263c5a87fbe26429e130262b43"',
+425 verbose headers   'last-modified': 'Thu, 24 Feb 2022 16:02:16 GMT',
+425 verbose headers   vary: 'accept-encoding, accept',
+425 verbose headers   'cf-cache-status': 'HIT',
+425 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+425 verbose headers   'x-amz-replication-status': 'COMPLETED',
+425 verbose headers   server: 'cloudflare',
+425 verbose headers   'content-encoding': 'gzip' }
+426 silly get cb [ 200,
+426 silly get   { date: 'Mon, 07 Mar 2022 02:04:17 GMT',
+426 silly get     'content-type': 'application/json',
+426 silly get     'transfer-encoding': 'chunked',
+426 silly get     connection: 'keep-alive',
+426 silly get     'cf-ray': '6e7fc26faa537e9b-LAX',
+426 silly get     age: '244',
+426 silly get     'cache-control': 'public, max-age=300',
+426 silly get     etag: 'W/"c886cf263c5a87fbe26429e130262b43"',
+426 silly get     'last-modified': 'Thu, 24 Feb 2022 16:02:16 GMT',
+426 silly get     vary: 'accept-encoding, accept',
+426 silly get     'cf-cache-status': 'HIT',
+426 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+426 silly get     'x-amz-replication-status': 'COMPLETED',
+426 silly get     server: 'cloudflare',
+426 silly get     'content-encoding': 'gzip' } ]
+427 verbose get saving @types/node to /home/ajklein99/.npm/registry.npmjs.org/_40types_252fnode/.cache.json
+428 http 200 https://registry.npmjs.org/ethereum-waffle
+429 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+429 verbose headers   'content-type': 'application/json',
+429 verbose headers   'transfer-encoding': 'chunked',
+429 verbose headers   connection: 'keep-alive',
+429 verbose headers   'cf-ray': '6e7fc26adf1d7c49-LAX',
+429 verbose headers   'cache-control': 'public, max-age=300',
+429 verbose headers   etag: 'W/"ac9c76cb36c162d8fd3a9b8d37986fb3"',
+429 verbose headers   'last-modified': 'Thu, 17 Jun 2021 13:34:45 GMT',
+429 verbose headers   vary: 'accept-encoding, accept',
+429 verbose headers   'cf-cache-status': 'REVALIDATED',
+429 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+429 verbose headers   server: 'cloudflare',
+429 verbose headers   'content-encoding': 'gzip' }
+430 silly get cb [ 200,
+430 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+430 silly get     'content-type': 'application/json',
+430 silly get     'transfer-encoding': 'chunked',
+430 silly get     connection: 'keep-alive',
+430 silly get     'cf-ray': '6e7fc26adf1d7c49-LAX',
+430 silly get     'cache-control': 'public, max-age=300',
+430 silly get     etag: 'W/"ac9c76cb36c162d8fd3a9b8d37986fb3"',
+430 silly get     'last-modified': 'Thu, 17 Jun 2021 13:34:45 GMT',
+430 silly get     vary: 'accept-encoding, accept',
+430 silly get     'cf-cache-status': 'REVALIDATED',
+430 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+430 silly get     server: 'cloudflare',
+430 silly get     'content-encoding': 'gzip' } ]
+431 verbose get saving ethereum-waffle to /home/ajklein99/.npm/registry.npmjs.org/ethereum-waffle/.cache.json
+432 http 200 https://registry.npmjs.org/typescript
+433 verbose headers { date: 'Mon, 07 Mar 2022 02:04:17 GMT',
+433 verbose headers   'content-type': 'application/json',
+433 verbose headers   'transfer-encoding': 'chunked',
+433 verbose headers   connection: 'keep-alive',
+433 verbose headers   'cf-ray': '6e7fc26fad190d38-LAX',
+433 verbose headers   age: '137',
+433 verbose headers   'cache-control': 'public, max-age=300',
+433 verbose headers   etag: 'W/"c882102b5dbe4b6087354916f70b45d7"',
+433 verbose headers   'last-modified': 'Sun, 06 Mar 2022 07:15:48 GMT',
+433 verbose headers   vary: 'accept-encoding, accept',
+433 verbose headers   'cf-cache-status': 'HIT',
+433 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+433 verbose headers   'x-amz-replication-status': 'PENDING',
+433 verbose headers   server: 'cloudflare',
+433 verbose headers   'content-encoding': 'gzip' }
+434 silly get cb [ 200,
+434 silly get   { date: 'Mon, 07 Mar 2022 02:04:17 GMT',
+434 silly get     'content-type': 'application/json',
+434 silly get     'transfer-encoding': 'chunked',
+434 silly get     connection: 'keep-alive',
+434 silly get     'cf-ray': '6e7fc26fad190d38-LAX',
+434 silly get     age: '137',
+434 silly get     'cache-control': 'public, max-age=300',
+434 silly get     etag: 'W/"c882102b5dbe4b6087354916f70b45d7"',
+434 silly get     'last-modified': 'Sun, 06 Mar 2022 07:15:48 GMT',
+434 silly get     vary: 'accept-encoding, accept',
+434 silly get     'cf-cache-status': 'HIT',
+434 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+434 silly get     'x-amz-replication-status': 'PENDING',
+434 silly get     server: 'cloudflare',
+434 silly get     'content-encoding': 'gzip' } ]
+435 verbose get saving typescript to /home/ajklein99/.npm/registry.npmjs.org/typescript/.cache.json
+436 http 200 https://registry.npmjs.org/ethers
+437 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+437 verbose headers   'content-type': 'application/json',
+437 verbose headers   'transfer-encoding': 'chunked',
+437 verbose headers   connection: 'keep-alive',
+437 verbose headers   'cf-ray': '6e7fc26b0fd27a99-LAX',
+437 verbose headers   'cache-control': 'public, max-age=300',
+437 verbose headers   etag: 'W/"7595ccabbed7138c9bfb3694de13178b"',
+437 verbose headers   'last-modified': 'Mon, 31 Jan 2022 03:04:23 GMT',
+437 verbose headers   vary: 'accept-encoding, accept',
+437 verbose headers   'cf-cache-status': 'REVALIDATED',
+437 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+437 verbose headers   'x-amz-replication-status': 'COMPLETED',
+437 verbose headers   server: 'cloudflare',
+437 verbose headers   'content-encoding': 'gzip' }
+438 silly get cb [ 200,
+438 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+438 silly get     'content-type': 'application/json',
+438 silly get     'transfer-encoding': 'chunked',
+438 silly get     connection: 'keep-alive',
+438 silly get     'cf-ray': '6e7fc26b0fd27a99-LAX',
+438 silly get     'cache-control': 'public, max-age=300',
+438 silly get     etag: 'W/"7595ccabbed7138c9bfb3694de13178b"',
+438 silly get     'last-modified': 'Mon, 31 Jan 2022 03:04:23 GMT',
+438 silly get     vary: 'accept-encoding, accept',
+438 silly get     'cf-cache-status': 'REVALIDATED',
+438 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+438 silly get     'x-amz-replication-status': 'COMPLETED',
+438 silly get     server: 'cloudflare',
+438 silly get     'content-encoding': 'gzip' } ]
+439 verbose get saving ethers to /home/ajklein99/.npm/registry.npmjs.org/ethers/.cache.json
+440 http 200 https://registry.npmjs.org/@nomiclabs%2fhardhat-ethers
+441 verbose headers { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+441 verbose headers   'content-type': 'application/json',
+441 verbose headers   'transfer-encoding': 'chunked',
+441 verbose headers   connection: 'keep-alive',
+441 verbose headers   'cf-ray': '6e7fc26acae97ca1-LAX',
+441 verbose headers   'cache-control': 'public, max-age=300',
+441 verbose headers   etag: 'W/"21185f0e936f21d237264e39df187c4a"',
+441 verbose headers   'last-modified': 'Thu, 10 Feb 2022 17:07:46 GMT',
+441 verbose headers   vary: 'accept-encoding, accept',
+441 verbose headers   'cf-cache-status': 'REVALIDATED',
+441 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+441 verbose headers   'x-amz-replication-status': 'COMPLETED',
+441 verbose headers   server: 'cloudflare',
+441 verbose headers   'content-encoding': 'gzip' }
+442 silly get cb [ 200,
+442 silly get   { date: 'Mon, 07 Mar 2022 02:04:16 GMT',
+442 silly get     'content-type': 'application/json',
+442 silly get     'transfer-encoding': 'chunked',
+442 silly get     connection: 'keep-alive',
+442 silly get     'cf-ray': '6e7fc26acae97ca1-LAX',
+442 silly get     'cache-control': 'public, max-age=300',
+442 silly get     etag: 'W/"21185f0e936f21d237264e39df187c4a"',
+442 silly get     'last-modified': 'Thu, 10 Feb 2022 17:07:46 GMT',
+442 silly get     vary: 'accept-encoding, accept',
+442 silly get     'cf-cache-status': 'REVALIDATED',
+442 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+442 silly get     'x-amz-replication-status': 'COMPLETED',
+442 silly get     server: 'cloudflare',
+442 silly get     'content-encoding': 'gzip' } ]
+443 verbose get saving @nomiclabs/hardhat-ethers to /home/ajklein99/.npm/registry.npmjs.org/_40nomiclabs_252fhardhat-ethers/.cache.json
+444 http 200 https://registry.npmjs.org/solidity-coverage
+445 verbose headers { date: 'Mon, 07 Mar 2022 02:04:20 GMT',
+445 verbose headers   'content-type': 'application/json',
+445 verbose headers   'transfer-encoding': 'chunked',
+445 verbose headers   connection: 'keep-alive',
+445 verbose headers   'cf-ray': '6e7fc282bb227d4e-LAX',
+445 verbose headers   'cache-control': 'public, max-age=300',
+445 verbose headers   etag: 'W/"1aa96f31e8fe1fed54e9ebcacde75280"',
+445 verbose headers   'last-modified': 'Tue, 15 Feb 2022 15:40:22 GMT',
+445 verbose headers   vary: 'accept-encoding, accept',
+445 verbose headers   'cf-cache-status': 'MISS',
+445 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+445 verbose headers   'x-amz-replication-status': 'COMPLETED',
+445 verbose headers   server: 'cloudflare',
+445 verbose headers   'content-encoding': 'gzip' }
+446 silly get cb [ 200,
+446 silly get   { date: 'Mon, 07 Mar 2022 02:04:20 GMT',
+446 silly get     'content-type': 'application/json',
+446 silly get     'transfer-encoding': 'chunked',
+446 silly get     connection: 'keep-alive',
+446 silly get     'cf-ray': '6e7fc282bb227d4e-LAX',
+446 silly get     'cache-control': 'public, max-age=300',
+446 silly get     etag: 'W/"1aa96f31e8fe1fed54e9ebcacde75280"',
+446 silly get     'last-modified': 'Tue, 15 Feb 2022 15:40:22 GMT',
+446 silly get     vary: 'accept-encoding, accept',
+446 silly get     'cf-cache-status': 'MISS',
+446 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+446 silly get     'x-amz-replication-status': 'COMPLETED',
+446 silly get     server: 'cloudflare',
+446 silly get     'content-encoding': 'gzip' } ]
+447 verbose get saving solidity-coverage to /home/ajklein99/.npm/registry.npmjs.org/solidity-coverage/.cache.json
+448 verbose stack Error: Not found : @traderRip-xyz/sdk
+448 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+448 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+448 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+448 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+448 verbose stack     at emitTwo (events.js:126:13)
+448 verbose stack     at Request.emit (events.js:214:7)
+448 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+448 verbose stack     at emitOne (events.js:121:20)
+448 verbose stack     at Request.emit (events.js:211:7)
+448 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+449 verbose statusCode 404
+450 verbose pkgid @traderRip-xyz/sdk
+451 verbose cwd /mnt/c/Users/CryptoSwap/Desktop/joe swap/joe core/joe-core-main
+452 error Linux 5.10.16.3-microsoft-standard-WSL2
+453 error argv "/usr/bin/node" "/usr/bin/npm" "update"
+454 error node v8.10.0
+455 error npm  v3.5.2
+456 error code E404
+457 error 404 Not found : @traderRip-xyz/sdk
+458 error 404
+459 error 404 '@traderRip-xyz/sdk' is not in the npm registry.
+460 error 404 Your package name is not valid, because
+461 error 404 1. name can no longer contain capital letters
+462 error 404 Note that you can also install from a
+463 error 404 tarball, folder, http url, or git url.
+464 verbose exit [ 1, true ]
