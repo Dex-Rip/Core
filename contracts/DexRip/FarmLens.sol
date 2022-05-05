@@ -11,7 +11,11 @@ import "./interfaces/IRipFactory.sol";
 
 import "../boringcrypto/BoringOwnable.sol";
 
-interface IMasterChef {
+
+interface IMasterChef 
+{}
+
+
     struct PoolInfo {
         IRipERC20 lpToken; // Address of LP token contract.
         uint256 allocPoint; // How many allocation points assigned to this pool. Rip to distribute per block.
@@ -25,13 +29,14 @@ interface IMasterChef {
 
     function totalAllocPoint() external view returns (uint256);
 
-    function RipPerSec() external view returns (uint256);
-}
+    function RipPerSec() external view returns (uint256);}
+
 
 contract FarmLens is BoringOwnable {
+    
     using SafeMath for uint256;
 
-    address public Rip; // 0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd;
+    address public Rip; //0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd;
     address public wavax; // 0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7;
     address public wavaxUsdt; // 0xeD8CBD9F0cE3C6986b22002F03c6475CEb7a6256
     address public wavaxUsdc; // 0x87Dee1cC9FFd464B79e058ba20387c1984aed86a

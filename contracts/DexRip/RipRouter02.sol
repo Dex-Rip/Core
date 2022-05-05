@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0
 
-pragma solidity =>0.6.12;
+pragma solidity >0.6.12;
 
 import "./libraries/RipLibrary.sol";
 import "./libraries/SafeMath.sol";
@@ -10,11 +10,14 @@ import "./interfaces/IRipFactory.sol";
 import "./interfaces/IERC20.sol";
 import "./interfaces/IWAVAX.sol";
 
+
 contract RipRouter02 is IRipRouter02 {
     using SafeMathRip for uint256;
 
-    address public immutable override factory;
-    address public immutable override WAVAX;
+    address public immutable 
+    override factory;
+    address public immutable 
+    override wAVAX;
 
     modifier ensure(uint256 deadline) {
         require(deadline >= block.timestamp, "RipRouter: EXPIRED");
@@ -23,24 +26,59 @@ contract RipRouter02 is IRipRouter02 {
 
     constructor(address _factory, address _WAVAX) public {
         factory = _factory;
-        WAVAX = _WAVAX;
-    }
+    WAVAX = _WAVAX;
+}
 
-    receive() external payable {
-        assert(msg.sender == WAVAX); // only accept AVAX via fallback from the WAVAX contract
+receive
+(
+
+) 
+external payable {
+assert(msg.sender == WAVAX); // only accept AVAX via fallback from the WAVAX contract
     }
 
     // **** ADD LIQUIDITY ****
-    function _addLiquidity(
-        address tokenA,
-        address tokenB,
-        uint256 amountADesired,
-        uint256 amountBDesired,
-        uint256 amountAMin,
-        uint256 amountBMin
-    ) internal virtual returns (uint256 amountA, uint256 amountB) {
-        // create the pair if it doesn't exist yet
-        if (IRipFactory(factory).getPair(tokenA, tokenB) == address(0)) {
+function 
+_addLiquidity
+(
+address 
+tokenA
+,
+address 
+tokenB
+,
+uint256 
+amountADesired
+,
+uint256 
+amountBDesired
+,
+uint256 
+amountAMin
+,
+uint256 
+amountBMin
+) 
+internal 
+virtual 
+returns 
+(
+uint256 
+amountA
+, 
+uint256 
+amountB
+) 
+{
+// create the pair if it doesn't exist yet
+if 
+(
+IRipFactory
+(
+    
+factory
+)
+.getPair(tokenA, tokenB) == address(0)) {
             IRipFactory(factory).createPair(tokenA, tokenB);
         }
         (uint256 reserveA, uint256 reserveB) = RipLibrary.getReserves(factory, tokenA, tokenB);
@@ -78,8 +116,8 @@ contract RipRouter02 is IRipRouter02 {
             uint256 amountA,
             uint256 amountB,
             uint256 liquidity
-        )
-    {
+)
+{
         (amountA, amountB) = _addLiquidity(tokenA, tokenB, amountADesired, amountBDesired, amountAMin, amountBMin);
         address pair = RipLibrary.pairFor(factory, tokenA, tokenB);
         TransferHelper.safeTransferFrom(tokenA, msg.sender, pair, amountA);

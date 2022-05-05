@@ -4,12 +4,13 @@ pragma solidity =>0.6.12;
 
 import "./libraries/SafeMath.sol";
 
+
 contract RipERC20 {
     using SafeMathRip for uint256;
 
-    string public constant name = "Rip LP Token";
-    string public constant symbol = "JLP";
-    uint8 public constant decimals = 18;
+    string public constant _name = "Rip LP Token";
+    string public constant _symbol = "RLP";
+    uint8 public constant _decimals = 18;
     uint256 public totalSupply;
     mapping(address => uint256) public balanceOf;
     mapping(address => mapping(address => uint256)) public allowance;

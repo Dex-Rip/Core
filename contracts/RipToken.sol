@@ -1,14 +1,15 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity >0.6.12;
+pragma solidity =>0.6.12;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 // RipToken with Governance.
-contract RipToken is ERC20("RipToken", "Rip"), Ownable {
+
+contract RipToken is ERC20("DRip", "Rip"), Ownable {
     /// @notice Total number of tokens
-    uint256 public maxSupply = 500_000_000e18; // 500 million Rip
+    uint256 public maxSupply = 500000000e18; // 500 million Rip
 
     /// @notice Creates `_amount` token to `_to`. Must only be called by the owner (MasterRip).
     function mint(address _to, uint256 _amount) public onlyOwner {
@@ -24,6 +25,7 @@ contract RipToken is ERC20("RipToken", "Rip"), Ownable {
     // https://github.com/compound-finance/compound-protocol/blob/master/contracts/Governance/Comp.sol
 
     /// @notice A record of each accounts delegate
+    
     mapping(address => address) internal _delegates;
 
     /// @notice A checkpoint for marking number of votes from a given block
